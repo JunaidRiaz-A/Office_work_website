@@ -1,0 +1,483 @@
+.main_div_working_process {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.blue_bg_div {
+  width: 100%;
+  height: 471px;
+  background-image: url("./../../../Assets/blue\ bg\ img.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 12%;
+}
+.working_process_para {
+  color: #ffffff;
+  /* font-family: "Livvic", sans-serif; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-top: 30px;
+}
+.working_process_heading {
+  color: #ffffff;
+  /* font-family: "Livvic", sans-serif; */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+}
+.btn_contact_us_working {
+  color: #ffffff;
+  /* font-family: "Livvic", sans-serif; */
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  width: 163.44px;
+  height: 54px;
+  border-radius: 8px;
+  background: linear-gradient(263.14deg, #4e95ed 19%, #03228f 100%);
+  outline: none;
+  border-style: none;
+  margin-top: 20px;
+}
+.number_heading_blue{
+    color: #03228F;
+    /* font-family: "Livvic", sans-serif; */
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.discovery_heading_black{
+    color: #101010;
+    font-family: "Livvic", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 8px;
+    text-align: left;
+    margin-left: 40px; 
+}
+.discovery_para_black{
+    color: #454545;
+    /* font-family: "Livvic", sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    margin-left: 40px; 
+}
+
+@media only screen and (max-width: 1555px) {
+    .main_div_working_process {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .blue_bg_div {
+        width: 100%;
+        height: 471px;
+        background-image: url("./../../../Assets/blue\ bg\ img.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 12%;
+      }
+      .working_process_para {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        padding-top: 30px;
+      }
+      .working_process_heading {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: left;
+      }
+      .btn_contact_us_working {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        width: 163.44px;
+        height: 54px;
+        border-radius: 8px;
+        background: linear-gradient(263.14deg, #4e95ed 19%, #03228f 100%);
+        outline: none;
+        border-style: none;
+        margin-top: 20px;
+      }
+      .number_heading_blue{
+          color: #03228F;
+          font-family: "Livvic", sans-serif;
+          font-size: 44px;
+          font-weight: 700;
+          line-height: 70px;
+          text-align: left;
+          margin-left: 40px;
+          margin-top: 20px;
+      }
+      .discovery_heading_black{
+          color: #101010;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 8px;
+          text-align: left;
+          margin-left: 40px; 
+      }
+      .discovery_para_black{
+          color: #454545;
+          font-family: "Livvic", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24.8px;
+          text-align: left;
+          margin-left: 40px; 
+      }
+}
+
+@media only screen and (max-width: 1300px) {
+    .main_div_working_process {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .blue_bg_div {
+        width: 100%;
+        height: 471px;
+        background-image: url("./../../../Assets/blue\ bg\ img.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 12%;
+      }
+      .working_process_para {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        padding-top: 60px;
+      }
+      .working_process_heading {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: left;
+      }
+      .btn_contact_us_working {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        width: 163.44px;
+        height: 54px;
+        border-radius: 8px;
+        background: linear-gradient(263.14deg, #4e95ed 19%, #03228f 100%);
+        outline: none;
+        border-style: none;
+        margin-top: 20px;
+      }
+      .number_heading_blue{
+          color: #03228F;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 38px;
+          font-weight: 700;
+          line-height: 70px;
+          text-align: left;
+          margin-left: 40px;
+          margin-top: 20px;
+      }
+      .discovery_heading_black{
+          color: #101010;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 8px;
+          text-align: left;
+          margin-left: 40px; 
+      }
+      .discovery_para_black{
+          color: #454545;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20.8px;
+          text-align: left;
+          margin-left: 40px; 
+      }
+}
+
+@media only screen and (max-width: 767px) {
+    .main_div_working_process {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .blue_bg_div {
+        width: 50%;
+        margin-left: 25%;
+        height: 471px;
+        background-image: url("./../../../Assets/blue\ bg\ img.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 12%;
+      }
+      .working_process_para {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        padding-top: 20px;
+      }
+      .working_process_heading {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: left;
+      }
+      .btn_contact_us_working {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        width: 163.44px;
+        height: 54px;
+        border-radius: 8px;
+        background: linear-gradient(263.14deg, #4e95ed 19%, #03228f 100%);
+        outline: none;
+        border-style: none;
+        margin-top: 20px;
+      }
+      .number_heading_blue{
+          color: #03228F;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 38px;
+          font-weight: 700;
+          line-height: 70px;
+          text-align: left;
+          margin-left: 40px;
+          margin-right: 40px;
+          margin-top: 20px;
+      }
+      .discovery_heading_black{
+          color: #101010;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 8px;
+          text-align: left;
+          margin-left: 40px; 
+          margin-right: 40px;
+      }
+      .discovery_para_black{
+          color: #454545;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20.8px;
+          text-align: left;
+          margin-left: 40px; 
+          margin-right: 40px;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    .main_div_working_process {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .blue_bg_div {
+        width: 50%;
+        margin-left: 25%;
+        height: 371px;
+        background-image: url("./../../../Assets/blue\ bg\ img.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 12%;
+      }
+      .working_process_para {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        padding-top: 5px;
+      }
+      .working_process_heading {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+      }
+      .btn_contact_us_working {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        width: 113.44px;
+        height: 44px;
+        border-radius: 8px;
+        background: linear-gradient(263.14deg, #4e95ed 19%, #03228f 100%);
+        outline: none;
+        border-style: none;
+        margin-top: 20px;
+      }
+      .number_heading_blue{
+          color: #03228F;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 30px;
+          text-align: left;
+          margin-left: 20px; 
+          margin-right: 20px;
+          margin-top: 20px;
+      }
+      .discovery_heading_black{
+          color: #101010;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 2px;
+          text-align: left;
+          margin-left: 20px; 
+          margin-right: 20px;
+      }
+      .discovery_para_black{
+          color: #454545;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16.8px;
+          text-align: left;
+          margin-left: 20px; 
+          margin-right: 20px;
+      }
+}
+
+@media only screen and (max-width: 460px) {
+    .main_div_working_process {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .blue_bg_div {
+        width: 70%;
+        margin-left: 15%;
+        height: 331px;
+        background-image: url("./../../../Assets/blue\ bg\ img.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 12%;
+      }
+      .working_process_para {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: left;
+        padding-top: 5px;
+      }
+      .working_process_heading {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+      }
+      .btn_contact_us_working {
+        color: #ffffff;
+        /* font-family: "Livvic", sans-serif; */
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        width: 113.44px;
+        height: 44px;
+        border-radius: 8px;
+        background: linear-gradient(263.14deg, #4e95ed 19%, #03228f 100%);
+        outline: none;
+        border-style: none;
+        margin-top: 20px;
+      }
+      .number_heading_blue{
+          color: #03228F;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 20px;
+          text-align: left;
+          margin-left: 20px; 
+          margin-right: 20px;
+          margin-top: 20px;
+      }
+      .discovery_heading_black{
+          color: #101010;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 2px;
+          text-align: left;
+          margin-left: 20px; 
+          margin-right: 20px;
+      }
+      .discovery_para_black{
+          color: #454545;
+          /* font-family: "Livvic", sans-serif; */
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 14.8px;
+          text-align: left;
+          margin-left: 20px; 
+          margin-right: 20px;
+      }
+}

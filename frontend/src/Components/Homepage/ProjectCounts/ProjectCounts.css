@@ -1,0 +1,152 @@
+.PC-layout1 {
+    width: 100%;
+    min-height: 191px;
+    background: #051D71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.PC-layout2 {
+    width: 100%;
+    max-width: 95%; /* Adjusted to use more of the screen width */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 10px; /* Reduced padding to allow content to stretch closer to edges */
+    box-sizing: border-box;
+}
+
+.PC-layout3, .PC-layout4, .PC-layout5, .PC-layout6 {
+    flex: 1;
+    min-width: 250px;
+    max-width: 298px;
+    height: 133px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.PC-layout3::after, .PC-layout4::after, .PC-layout5::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 30%;
+    height: 40%;
+    width: 1px;
+    background: #FFFFFF1A;
+}
+
+.PC-layout6::after {
+    display: none;
+}
+
+.PC-content1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -0.16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.PC-content2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* Larger screens (desktops) */
+@media (min-width: 1200px) {
+    .PC-layout2 {
+        flex-wrap: nowrap;
+        max-width: 90%; /* Slightly reduced to maintain some margin but stretch more */
+    }
+    .PC-layout3, .PC-layout4, .PC-layout5, .PC-layout6 {
+        min-width: 298px;
+    }
+}
+
+/* Tablets and small laptops */
+@media (max-width: 1199px) and (min-width: 769px) {
+    .PC-layout2 {
+        justify-content: center;
+        max-width: 95%;
+    }
+    .PC-layout3, .PC-layout4, .PC-layout5, .PC-layout6 {
+        flex: 0 1 45%;
+        max-width: 45%;
+    }
+    .PC-layout3::after, .PC-layout5::after {
+        display: none;
+    }
+    .PC-content1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .PC-content2 {
+        font-size: 11px;
+        line-height: 24px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .PC-layout1 {
+        min-height: auto;
+        padding: 30px 0;
+    }
+    .PC-layout2 {
+        flex-direction: column;
+        gap: 30px;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .PC-layout3, .PC-layout4, .PC-layout5, .PC-layout6 {
+        max-width: 100%;
+        height: 100px;
+    }
+    .PC-layout3::after, .PC-layout4::after, .PC-layout5::after {
+        display: none;
+    }
+    .PC-content1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .PC-content2 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+/* Smaller mobile devices */
+@media (max-width: 480px) {
+    .PC-content1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .PC-content2 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .PC-layout3, .PC-layout4, .PC-layout5, .PC-layout6 {
+        height: 80px;
+    }
+}

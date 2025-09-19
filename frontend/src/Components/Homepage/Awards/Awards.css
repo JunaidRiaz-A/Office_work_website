@@ -1,0 +1,438 @@
+.layout-main5 {
+  width: 1150px; 
+  height: 264px; 
+  margin: 0 auto; 
+top: 850px;
+left: 287px;
+margin-left:35%;
+margin-top:-6%;
+}
+.blackB-line{
+    width: 1040px;
+height: 45px;
+top: 219px;
+left: 90px;
+padding: 9.5px 407.44px 10.5px 407.77px;
+position:relative;
+background: #13121D;
+margin-left:-1%;
+
+}
+.line-text{
+    color: #FFFFFF;
+ font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 1.399999976158142px;
+text-align: center;
+width: 350.79px;
+height: 25px;
+top: 9.5px;
+left: 407.77px;
+margin-left:-30%;
+
+}
+.layout-award1{
+    width: 330px;
+height: 189px;
+left: 90px;
+box-shadow: 0px 4px 4px 0px #00000040;
+background: #FFFFFF;
+position:relative;
+margin-top:-3.6%;
+margin-left:-1%;
+
+}
+.layout-quality{
+width: 330px;
+height: 189px;
+left: 486.66px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 0px #00000040;
+position:relative;
+margin-top:-16.5%;
+margin-left:-5%;
+;
+}
+.layout-guarantee{
+width: 330px;
+height: 189px;
+left: 883.31px;
+gap: 0px;
+opacity: 0px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 0px #00000040;
+position:relative;
+margin-top:-16.5%;
+margin-left:-9%;
+
+}
+.layout-orangeB{
+    width: 110px;
+height: 179;
+top: 5px;
+left: 5px;
+padding: 25px 23.08px 25px 23.08px;
+gap: 0px;
+opacity: 0px;
+background: #FF5B24;
+position:absolute;
+}
+
+.content-num{
+   color: #FFFFFF;
+ width: 55px;
+height: 45px;
+top: 25px;
+left: 28.13px;
+
+font-family: 'Poppins', sans-serif;
+font-size: 45px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: -0.1599999964237213px;
+text-align: center;
+
+}
+
+.layout-all{
+    width: 63.84px;
+height: 63.84px;
+top: 63.92px;
+color: #FFFFFF;
+
+}
+
+.content-words{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.22px;
+letter-spacing: -0.1599999964237213px;
+text-align: left;
+color: #111111;
+
+
+}
+.words-layout{
+    width: 192.66px;
+height: 48.44px;
+top: 30px;
+left: 145px;
+padding: 0px 18.99px 0px 0px;
+gap: 0px;
+opacity: 0px;
+position:absolute;
+
+}
+.words-layout2{
+
+width: 189.55px;
+height: 60px;
+top: 95.94px;
+left: 125px;
+background: #FFFFFF;
+
+position:absolute;
+}
+.content-words2{
+   font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+
+color: #696969;
+}
+
+@media(min-width:2559px){
+    .layout-main5 {
+margin-left:80%;
+}
+}
+@media(max-width:1500px){
+.layout-main5 {
+margin-left:25%;
+}
+
+}
+
+@media(max-width:1350px){
+.layout-main5 {
+margin-left:10%;
+}
+
+}
+@media(max-width:1200px){
+.layout-guarantee{
+left: 290px;
+margin-top:2%;
+margin-left:0%
+}
+.layout-quality{
+left: 500px;
+margin-top:-24%;
+}
+.layout-main5 {
+  width: 790px; 
+  height: 460px; 
+top: 800px;
+left: 290px;
+margin-left:25%;
+margin-top:-15%;
+}
+.blackB-line{
+width: 708px;
+top: 416px;
+left: 44px;
+margin-left:5%;
+padding: 0px 0px 0px 0px;
+}
+.line-text{
+margin-left:22%;
+}
+}
+@media(max-width:1000px){
+    .layout-main5 {
+  width: 790px; 
+  height: 460px; 
+top: 800px;
+left: 290px;
+margin-left:25%;
+margin-top:-15%;
+}
+}
+@media(max-width:992px){
+.layout-main5 {
+  width: 730px; 
+    left: 0px;
+margin-left:90px;
+}
+.blackB-line{
+width: 690px;
+padding: 0px 0px 0px 0px;
+margin-left:0%;
+}
+.line-text{
+    left:0px;
+margin-left:22%;
+}
+.layout-guarantee{
+left: 240px;
+margin-top:2%;
+margin-left:0%
+}
+.layout-quality{
+left: 450px;
+margin-top:-25.5%;
+}
+.layout-award1{
+left: 50px;
+margin-left:0%;
+}
+}
+@media(max-width:870px)
+{
+    .layout-main5 {
+ left: 0px;
+margin-left:70px;
+}
+}
+@media(max-width:830px)
+{
+    .layout-main5 {
+ left: 0px;
+margin-left:0%;
+}
+}
+@media(max-width:790px)
+{
+    .layout-main5 {
+ left: 0px;
+margin-left:0px;
+}
+}
+
+@media(max-width:768px){
+.layout-main5 {
+  width: 500px;
+   height: 690px;
+     left: 0px;
+margin-left:90px;
+margin-top:-20%;
+}
+.blackB-line{
+width: 330px;
+top: 646px;
+margin-left:15%;
+}
+.layout-guarantee{
+left: 120px;
+margin-top:4%;
+margin-left:0%
+}
+.layout-quality{
+left: 146px;
+margin-top:4%;
+}
+.line-text{
+margin-left:16%;
+}
+.layout-award1{
+    left: 120px;
+   
+}
+.line-text{
+font-size: 12px;
+margin-left:17%;
+width: 200px;
+height: 45px;
+left:0%;
+
+}
+}
+@media(max-width:767px)
+{
+   .layout-main5 {
+  width: 500px;
+   height: 690px;
+     left: 0px;
+margin-left:90px;
+margin-top:-10%;
+} 
+}
+@media(max-width:600px)
+{
+.layout-main5 {
+  width: 430px;
+margin-left:40px;
+
+}
+}
+
+@media(max-width:578px){
+.layout-main5 {
+  width: 400px;
+     height: 690px;
+     left: 0px;
+margin-left:50px;
+margin-top:-14%;
+}
+.blackB-line{
+width: 330px;
+margin-left:8%;
+}
+.layout-guarantee{
+left: 80px;
+
+}
+.layout-quality{
+left: 100px;
+}
+.line-text{
+margin-left:8%;
+}
+.layout-award1{
+    left: 80.5px;
+   
+}
+.line-text{
+font-size: 12px;
+margin-left:17%;
+width: 200px;
+height: 45px;
+left:0%;
+
+}
+}
+
+
+@media(max-width:480px){
+.layout-main5 {
+  width: 200px;
+     height: 600px; 
+     left: 0px;
+margin-left:85px;
+margin-top:-10%;
+}
+.blackB-line{
+width: 240px;
+margin-left:-18%;
+top: 555px;
+}
+.line-text{
+font-size: 12px;
+margin-left:8%;
+width: 200px;
+height: 45px;
+left:0%;
+}
+.layout-award1,.layout-quality,
+.layout-guarantee{
+    width: 230px;
+height: 170px;
+left: 10px;
+margin-left:0%;
+}
+.layout-orangeB{
+    width: 70px;
+    height: 160px;
+    padding: 0px 0px 0px 0px;
+}
+.content-num{ 
+ width: 50px;
+margin-left:6%;
+font-size: 40px;
+
+}
+
+.layout-all{
+    width: 40px;
+    margin-left:15%;
+}
+
+.content-words{
+font-size: 15px;
+}
+.words-layout{
+    width: 147px;
+left: 85px;
+top: 10px;
+
+}
+.words-layout2{
+
+width: 120px;
+height: 90px;
+left: 85px;
+top: 70px;
+}
+.content-words2{
+font-size: 14px;
+}
+.layout-award1{
+margin-top:-20%;
+}
+}
+
+@media(max-width:425px){
+    .layout-main5 {
+     left: 0px;
+margin-left:60px;
+}
+}
+@media(max-width:375px){
+    .layout-main5 {
+     left: 0px;
+margin-left:50px;
+}
+}
+
+@media(max-width:320px){
+    .layout-main5 {
+     left: 0px;
+margin-left:35px;
+}
+}

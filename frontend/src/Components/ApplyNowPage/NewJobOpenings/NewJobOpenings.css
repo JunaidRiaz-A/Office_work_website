@@ -1,0 +1,869 @@
+.main_div_newjobopenings {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+}
+.new_opening_para {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #03228f;
+}
+.new_opening_heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.new_opening_div_hr {
+  width: 90px;
+  height: 5px;
+  border-radius: 30px;
+  background: #051d71;
+  margin-bottom: 40px;
+}
+.main_div_job_open_card {
+  width: 100%;
+  /* margin-left: 2%; */
+  height: 202.03px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px;
+  background: #ffffff;
+  border: 1px solid #1d17291a;
+  padding: 35px;
+}
+.heading_position_name {
+  font-family: "Catamaran", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29.04px;
+  text-align: left;
+  color: #1d1729;
+}
+.by_grey_job_desp {
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6c6a72;
+  margin-right: 5px;
+}
+.black_para_job_desp {
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1d1729;
+  margin-right: 5px;
+}
+.by_orange_job_desp {
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ff6809;
+  margin-right: 5px;
+}
+.btn_in_house_job {
+  height: 34px;
+  background: #3a30ec;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #0162ca;
+  border-style: none;
+  border-color: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.btn_in_house_job:hover {
+  height: 34px;
+  color: #ffffff;
+  background: #ff6809;
+}
+
+.apply_now_btn_job {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+  width: 100%;
+  height: 62px;
+  border-radius: 3px;
+  box-shadow: 0px 28px 50px 0px #0000000d;
+  border-style: none;
+  border-color: none;
+  outline: none;
+  margin-top: 35px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+.pagination_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 1965px) {
+    .main_div_newjobopenings {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .new_opening_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #03228f;
+      }
+      .new_opening_heading {
+        font-family: "Poppins", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 50.4px;
+        text-align: center;
+        color: #0a0a0a;
+      }
+      .new_opening_div_hr {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 40px;
+      }
+      .main_div_job_open_card {
+        width: 100%;
+        /* margin-left: 2%; */
+        height: 202.03px;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px;
+        background: #ffffff;
+        border: 1px solid #1d17291a;
+        padding: 35px;
+      }
+      .heading_position_name {
+        font-family: "Catamaran", sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 22.04px;
+        text-align: left;
+        color: #1d1729;
+      }
+      .by_grey_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #6c6a72;
+        margin-right: 5px;
+      }
+      .black_para_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #1d1729;
+        margin-right: 5px;
+      }
+      .by_orange_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #ff6809;
+        margin-right: 5px;
+      }
+      .btn_in_house_job {
+        height: 34px;
+        background: #efeafd;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #0162ca;
+        border-style: none;
+        border-color: none;
+        cursor: pointer;
+        margin-right: 7px;
+      }
+      .btn_in_house_job:hover {
+        height: 34px;
+        color: #ffffff;
+        background: #ff6809;
+      }
+      .apply_now_btn_job {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+        width: 100%;
+        height: 62px;
+        border-radius: 3px;
+        box-shadow: 0px 28px 50px 0px #0000000d;
+        border-style: none;
+        border-color: none;
+        outline: none;
+        margin-top: 35px;
+      }
+      
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .main_div_newjobopenings {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .new_opening_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #03228f;
+      }
+      .new_opening_heading {
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 20.4px;
+        text-align: center;
+        color: #0a0a0a;
+      }
+      .new_opening_div_hr {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 40px;
+      }
+      .main_div_job_open_card {
+        width: 100%;
+        /* margin-left: 2%; */
+        height: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px;
+        background: #ffffff;
+        border: 1px solid #1d17291a;
+        padding: 35px;
+      }
+      .heading_position_name {
+        font-family: "Catamaran", sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 16.04px;
+        text-align: left;
+        color: #1d1729;
+      }
+      .by_grey_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #6c6a72;
+        margin-right: 5px;
+      }
+      .black_para_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #1d1729;
+        margin-right: 5px;
+      }
+      .by_orange_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #ff6809;
+        margin-right: 5px;
+      }
+      .btn_in_house_job {
+        height: auto;
+        background: #efeafd;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        font-family: "Catamaran", sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #0162ca;
+        border-style: none;
+        border-color: none;
+        cursor: pointer;
+        margin-right: 7px;
+        margin-bottom: 6px;
+      }
+      .btn_in_house_job:hover {
+        height: auto;
+        color: #ffffff;
+        background: #ff6809;
+      }
+      .apply_now_btn_job {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+        width: 100%;
+        height: 42px;
+        border-radius: 3px;
+        box-shadow: 0px 28px 50px 0px #0000000d;
+        border-style: none;
+        border-color: none;
+        outline: none;
+        margin-top: 35px;
+      }
+      
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .main_div_newjobopenings {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .new_opening_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #03228f;
+      }
+      .new_opening_heading {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 20.4px;
+        text-align: center;
+        color: #0a0a0a;
+      }
+      .new_opening_div_hr {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 40px;
+      }
+      .main_div_job_open_card {
+        width: 96%;
+        margin-left: 2%;
+        height: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px;
+        background: #ffffff;
+        border: 1px solid #1d17291a;
+        padding: 35px;
+      }
+      .heading_position_name {
+        font-family: "Catamaran", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14.04px;
+        text-align: left;
+        color: #1d1729;
+      }
+      .by_grey_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        color: #6c6a72;
+        margin-right: 5px;
+      }
+      .black_para_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        color: #1d1729;
+        margin-right: 5px;
+      }
+      .by_orange_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        color: #ff6809;
+        margin-right: 5px;
+      }
+      .btn_in_house_job {
+        height: auto;
+        background: #efeafd;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        font-family: "Catamaran", sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #0162ca;
+        border-style: none;
+        border-color: none;
+        cursor: pointer;
+        margin-right: 7px;
+        margin-bottom: 6px;
+      }
+      .btn_in_house_job:hover {
+        height: auto;
+        color: #ffffff;
+        background: #ff6809;
+      }
+      .apply_now_btn_job {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+        width: 100%;
+        height: 40px;
+        border-radius: 3px;
+        box-shadow: 0px 28px 50px 0px #0000000d;
+        border-style: none;
+        border-color: none;
+        outline: none;
+        margin-top: 35px;
+      }
+      
+}
+
+
+@media only screen and (max-width: 1055px) {
+    .main_div_newjobopenings {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .new_opening_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #03228f;
+      }
+      .new_opening_heading {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 18.4px;
+        text-align: center;
+        color: #0a0a0a;
+      }
+      .new_opening_div_hr {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 40px;
+      }
+      .main_div_job_open_card {
+        width: 96%;
+        margin-left: 2%;
+        height: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px;
+        background: #ffffff;
+        border: 1px solid #1d17291a;
+        padding: 35px;
+      }
+      .heading_position_name {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14.04px;
+        text-align: left;
+        color: #1d1729;
+      }
+      .by_grey_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #6c6a72;
+        margin-right: 5px;
+      }
+      .black_para_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #1d1729;
+        margin-right: 5px;
+      }
+      .by_orange_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #ff6809;
+        margin-right: 5px;
+      }
+      .btn_in_house_job {
+        height: auto;
+        background: #efeafd;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #0162ca;
+        border-style: none;
+        border-color: none;
+        cursor: pointer;
+        margin-right: 7px;
+        margin-bottom: 6px;
+      }
+      .btn_in_house_job:hover {
+        height: auto;
+        color: #ffffff;
+        background: #ff6809;
+      }
+      .apply_now_btn_job {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+        width: 100%;
+        height: 40px;
+        border-radius: 3px;
+        box-shadow: 0px 28px 50px 0px #0000000d;
+        border-style: none;
+        border-color: none;
+        outline: none;
+        margin-top: 35px;
+      }
+      
+}
+
+
+@media only screen and (max-width: 991px) {
+    .main_div_newjobopenings {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .new_opening_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #03228f;
+      }
+      .new_opening_heading {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18.4px;
+        text-align: center;
+        color: #0a0a0a;
+      }
+      .new_opening_div_hr {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 40px;
+      }
+      .main_div_job_open_card {
+        width: 96%;
+        margin-left: 2%;
+        height: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px;
+        background: #ffffff;
+        border: 1px solid #1d17291a;
+        padding: 25px;
+      }
+      .heading_position_name {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14.04px;
+        text-align: left;
+        color: #1d1729;
+      }
+      .by_grey_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #6c6a72;
+        margin-right: 5px;
+      }
+      .black_para_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #1d1729;
+        margin-right: 5px;
+      }
+      .by_orange_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #ff6809;
+        margin-right: 5px;
+      }
+      .btn_in_house_job {
+        height: auto;
+        background: #efeafd;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #0162ca;
+        border-style: none;
+        border-color: none;
+        cursor: pointer;
+        margin-right: 7px;
+        margin-bottom: 6px;
+      }
+      .btn_in_house_job:hover {
+        height: auto;
+        color: #ffffff;
+        background: #ff6809;
+      }
+      .apply_now_btn_job {
+        font-family: "Poppins", sans-serif;
+        font-size: 9.5px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+        width: 100%;
+        height: 40px;
+        border-radius: 3px;
+        box-shadow: 0px 28px 50px 0px #0000000d;
+        border-style: none;
+        border-color: none;
+        outline: none;
+        margin-top: 35px;
+      }
+      
+}
+
+@media only screen and (max-width: 767px) {
+    .main_div_newjobopenings {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .new_opening_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #03228f;
+      }
+      .new_opening_heading {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18.4px;
+        text-align: center;
+        color: #0a0a0a;
+      }
+      .new_opening_div_hr {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 40px;
+      }
+      .main_div_job_open_card {
+        width: 96%;
+        margin-left: 2%;
+        height: auto;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 1px;
+        background: #ffffff;
+        border: 1px solid #1d17291a;
+        padding: 15px;
+      }
+      .heading_position_name {
+        font-family: "Catamaran", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14.04px;
+        text-align: left;
+        color: #1d1729;
+      }
+      .by_grey_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #6c6a72;
+        margin-right: 5px;
+      }
+      .black_para_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #1d1729;
+        margin-right: 5px;
+      }
+      .by_orange_job_desp {
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        color: #ff6809;
+        margin-right: 5px;
+      }
+      .btn_in_house_job {
+        height: auto;
+        background: #efeafd;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        font-family: "Catamaran", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+        color: #0162ca;
+        border-style: none;
+        border-color: none;
+        cursor: pointer;
+        margin-right: 7px;
+        margin-bottom: 6px;
+      }
+      .btn_in_house_job:hover {
+        height: auto;
+        color: #ffffff;
+        background: #ff6809;
+      }
+      .apply_now_btn_job {
+        font-family: "Poppins", sans-serif;
+        font-size: 9.5px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        background: linear-gradient(112.11deg, #03228f 0%, #0b70e1 77%);
+        width: 100%;
+        height: 40px;
+        border-radius: 3px;
+        box-shadow: 0px 28px 50px 0px #0000000d;
+        border-style: none;
+        border-color: none;
+        outline: none;
+        margin-top: 10px;
+      }
+      
+}

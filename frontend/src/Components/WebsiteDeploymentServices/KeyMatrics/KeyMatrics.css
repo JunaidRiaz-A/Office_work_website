@@ -1,0 +1,527 @@
+.main_div_KeyMatrics {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.blue_div_KeyMatrics {
+  width: 100%;
+  height: 320.76px;
+  border-radius: 5px;
+  background: #051d71;
+  padding: 40px;
+}
+
+.heading_key_matrix {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 34.99px;
+  font-weight: 600;
+  line-height: 53.6px;
+  text-align: left;
+}
+.valueink {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 73.58px;
+  font-weight: 700;
+  line-height: 93.42px;
+  text-align: start;
+}
+.paravalueink {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.54px;
+  font-weight: 500;
+  line-height: 30.15px;
+  text-align: start;
+}
+
+.valueink1 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 73.58px;
+  font-weight: 700;
+  line-height: 93.42px;
+  text-align: center;
+}
+.paravalueink1 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.54px;
+  font-weight: 500;
+  line-height: 30.15px;
+  text-align: center;
+}
+
+.valueink2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 73.58px;
+  font-weight: 700;
+  line-height: 93.42px;
+  text-align: end;
+}
+.paravalueink2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.54px;
+  font-weight: 500;
+  line-height: 30.15px;
+  text-align: end;
+}
+@media only screen and (max-width: 1940px) {
+  .main_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .blue_div_KeyMatrics {
+    width: 100%;
+    height: 320.76px;
+    border-radius: 5px;
+    background: #051d71;
+    padding: 40px;
+  }
+
+  .heading_key_matrix {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 30.99px;
+    font-weight: 600;
+    line-height: 43.6px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .valueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 53.58px;
+    font-weight: 700;
+    line-height: 73.42px;
+    text-align: start;
+  }
+  .paravalueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18.54px;
+    font-weight: 500;
+    line-height: 26.15px;
+    text-align: start;
+  }
+
+  .valueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 53.58px;
+    font-weight: 700;
+    line-height: 73.42px;
+    text-align: center;
+  }
+  .paravalueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18.54px;
+    font-weight: 500;
+    line-height: 26.15px;
+    text-align: center;
+  }
+
+  .valueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 53.58px;
+    font-weight: 700;
+    line-height: 73.42px;
+    text-align: end;
+  }
+  .paravalueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18.54px;
+    font-weight: 500;
+    line-height: 26.15px;
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .main_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .blue_div_KeyMatrics {
+    width: 100%;
+    height: 320.76px;
+    border-radius: 5px;
+    background: #051d71;
+    padding: 40px;
+  }
+
+  .heading_key_matrix {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18.99px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-top: 22px;
+  }
+  .valueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 28.58px;
+    font-weight: 700;
+    line-height: 63.42px;
+    text-align: start;
+  }
+  .paravalueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.54px;
+    font-weight: 500;
+    line-height: 22.15px;
+    text-align: start;
+  }
+
+  .valueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 28.58px;
+    font-weight: 700;
+    line-height: 63.42px;
+    text-align: center;
+  }
+  .paravalueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.54px;
+    font-weight: 500;
+    line-height: 22.15px;
+    text-align: center;
+  }
+
+  .valueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 28.58px;
+    font-weight: 700;
+    line-height: 63.42px;
+    text-align: end;
+  }
+  .paravalueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.54px;
+    font-weight: 500;
+    line-height: 22.15px;
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .main_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .blue_div_KeyMatrics {
+    width: 100%;
+    height: 320.76px;
+    border-radius: 5px;
+    background: #051d71;
+    padding: 40px;
+  }
+
+  .heading_key_matrix {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16.99px;
+    font-weight: 600;
+    line-height: 28.6px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .valueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 26.58px;
+    font-weight: 700;
+    line-height: 33.42px;
+    text-align: start;
+  }
+  .paravalueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: start;
+  }
+
+  .valueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 26.58px;
+    font-weight: 700;
+    line-height: 33.42px;
+    text-align: center;
+  }
+  .paravalueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: center;
+  }
+
+  .valueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 26.58px;
+    font-weight: 700;
+    line-height: 33.42px;
+    text-align: end;
+  }
+  .paravalueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .blue_div_KeyMatrics {
+    width: 100%;
+    height: 320.76px;
+    border-radius: 5px;
+    background: #051d71;
+    padding: 40px;
+  }
+
+  .heading_key_matrix {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16.99px;
+    font-weight: 600;
+    line-height: 28.6px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .valueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 22.58px;
+    font-weight: 700;
+    line-height: 22.42px;
+    text-align: start;
+  }
+  .paravalueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: start;
+  }
+
+  .valueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 22.58px;
+    font-weight: 700;
+    line-height: 22.42px;
+    text-align: center;
+  }
+  .paravalueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: center;
+  }
+
+  .valueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 22.58px;
+    font-weight: 700;
+    line-height: 22.42px;
+    text-align: end;
+  }
+  .paravalueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .blue_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background: #051d71;
+    padding: 40px;
+  }
+
+  .heading_key_matrix {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.99px;
+    font-weight: 600;
+    line-height: 28.6px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .valueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36.58px;
+    font-weight: 700;
+    line-height: 33.42px;
+    text-align: center;
+  }
+  .paravalueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.54px;
+    font-weight: 500;
+    line-height: 2.15px;
+    text-align: center;
+  }
+
+  .valueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36.58px;
+    font-weight: 700;
+    line-height: 33.42px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .paravalueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.54px;
+    font-weight: 500;
+    line-height: 2.15px;
+    text-align: center;
+  }
+
+  .valueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 36.58px;
+    font-weight: 700;
+    line-height: 33.42px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .paravalueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.54px;
+    font-weight: 500;
+    line-height: 2.15px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .blue_div_KeyMatrics {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background: #051d71;
+    padding: 40px;
+  }
+
+  .heading_key_matrix {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.99px;
+    font-weight: 600;
+    line-height: 18.6px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .valueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20.58px;
+    font-weight: 700;
+    line-height: 23.42px;
+    text-align: center;
+  }
+  .paravalueink {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: center;
+  }
+
+  .valueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20.58px;
+    font-weight: 700;
+    line-height: 23.42px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .paravalueink1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: center;
+  }
+
+  .valueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20.58px;
+    font-weight: 700;
+    line-height: 23.42px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .paravalueink2 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.54px;
+    font-weight: 500;
+    line-height: 12.15px;
+    text-align: center;
+  }
+}

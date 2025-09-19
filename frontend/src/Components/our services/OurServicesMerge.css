@@ -1,0 +1,23 @@
+/* Base styling for navbar links */
+.para_web_navbar_white {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover color change */
+.para_web_navbar_white:hover {
+  color: orange;
+}
+
+/* Prevent blue active/focus outline */
+.para_web_navbar_white:focus,
+.para_web_navbar_white:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove automatic active link highlight if used */
+.active-link {
+  color: white !important; /* or same as .para_web_navbar_white to cancel out highlight */
+}

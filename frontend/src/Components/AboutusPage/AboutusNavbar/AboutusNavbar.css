@@ -1,0 +1,294 @@
+.main_div_aboutusnavbar {
+  width: 100%;
+  height: 370px;
+  background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Heading_navbar {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 55.2px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 9%;
+}
+.para_aboutus_navbar_white {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18.8px;
+  text-align: center;
+  margin-right: 10px;
+}
+.para_aboutus_navbar_orange {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18.8px;
+  text-align: left;
+  color: #ff5e15;
+}
+@media only screen and (max-width: 1200px) {
+    .main_div_aboutusnavbar {
+        width: 100%;
+        height: 370px;
+        background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .Heading_navbar {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 45.2px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 12%;
+      }
+      .para_aboutus_navbar_white {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.8px;
+        text-align: center;
+        margin-right: 10px;
+      }
+      .para_aboutus_navbar_orange {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.8px;
+        text-align: left;
+        color: #ff5e15;
+      }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .main_div_aboutusnavbar {
+        width: 100%;
+        height: 300px;
+        background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .Heading_navbar {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 25.2px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 15%;
+      }
+      .para_aboutus_navbar_white {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 8.8px;
+        text-align: center;
+        margin-right: 10px;
+      }
+      .para_aboutus_navbar_orange {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 8.8px;
+        text-align: left;
+        color: #ff5e15;
+      }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .main_div_aboutusnavbar {
+        width: 100%;
+        height: 270px;
+        background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .Heading_navbar {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 25.2px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 16%;
+      }
+      .para_aboutus_navbar_white {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 8.8px;
+        text-align: center;
+        margin-right: 10px;
+      }
+      .para_aboutus_navbar_orange {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 8.8px;
+        text-align: left;
+        color: #ff5e15;
+      }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main_div_aboutusnavbar {
+        width: 100%;
+        height: 180px;
+        background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .Heading_navbar {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 18.2px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 10%;
+      }
+      .para_aboutus_navbar_white {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 6.8px;
+        text-align: center;
+        margin-right: 10px;
+      }
+      .para_aboutus_navbar_orange {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 6.8px;
+        text-align: left;
+        color: #ff5e15;
+      }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .main_div_aboutusnavbar {
+        width: 100%;
+        height: 180px;
+        background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .Heading_navbar {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 12.2px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 16%;
+      }
+      .para_aboutus_navbar_white {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 6.8px;
+        text-align: center;
+        margin-right: 5px;
+      }
+      .para_aboutus_navbar_orange {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 6.8px;
+        text-align: left;
+        color: #ff5e15;
+      }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .main_div_aboutusnavbar {
+        width: 100%;
+        height: 180px;
+        background-image: url("./../../../Assets/bg\ about\ us\ ].png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .Heading_navbar {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 12.2px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 20%;
+      }
+      .para_aboutus_navbar_white {
+        color: #ffffff;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 6.8px;
+        text-align: center;
+        margin-right: 5px;
+      }
+      .para_aboutus_navbar_orange {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 6.8px;
+        text-align: left;
+        color: #ff5e15;
+      }
+}
+.breadcrumb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.breadcrumb-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+
+
+.breadcrumb-link:focus,
+.breadcrumb-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.breadcrumb-separator {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-current {
+  color: #ff5e15;
+  font-weight: 700;
+}
+

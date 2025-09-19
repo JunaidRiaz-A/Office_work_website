@@ -1,0 +1,211 @@
+.Es-layout1 {
+  background: #051d71;
+  width: 100%;
+  min-height: 578px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.estimate-image {
+  border: 5px solid transparent; /* Initial transparent border */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0); /* Initial shadow */
+  outline: 5px solid transparent; /* Initial outline color, matches border width */
+  transition: all 0.5s ease-in-out; /* Smooth transition for all properties */
+  position: relative; /* Required for absolute positioning of the outline */
+  z-index: 1; /* Ensures the image is above the outline */
+}
+
+.estimate-image:hover {
+  border: 5px solid transparent; /* Keep transparent border on hover */
+  outline-color: #63a8f7; /* Outer border color on hover */
+  outline-offset: 7px; /* Create space between the image and outline */
+  box-shadow: 0 0 50px rgba(211, 212, 216, 0.5);
+  /* transform: scale(0.7); */
+}
+
+.Es-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Es-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 1240px;
+  margin-top: -45px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.Es-layout2 {
+  width: 80%;
+  max-width: 400px;
+  min-height: 548px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.Es-layout3 {
+  width: 60%;
+  max-width: 593px;
+  min-height: 400px;
+  margin-top: 170px;
+  padding-top: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 10%;
+}
+
+.Es-layout4 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Es-content1 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26.6px;
+  text-align: center;
+}
+
+.Es-content2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.Es-content3 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 34.2px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.Es-button {
+  width: 188px;
+  height: 54px;
+  padding: 0 18px;
+  border-radius: 5px;
+  background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease;
+}
+
+.Es-button:hover {
+  background: #0a0868;
+}
+
+
+@media (max-width: 1097px) {
+  .Es-layout2 {
+    width: 45%;
+  }
+  .Es-content2 {
+    font-size: 22px;
+  }
+  .Es-content3 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 982px) {
+  .Es-content2 {
+    font-size: 29px;
+  }
+  .Es-content3 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 897px) {
+  .Es-layout2 {
+    width: 100%;
+  }
+  .Es-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Es-layout2, .Es-layout3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Es-layout3 {
+    width: 90%;
+  }
+  .Es-content2 {
+    font-size: 22px;
+  }
+  .Es-content3 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 477px) {
+  .Es-content2 {
+    font-size: 18px;
+  }
+  .Es-content3 {
+    font-size: 12px;
+  }
+  .Es-layout2 {
+    margin-left: 0;
+    max-width: 180px !important;
+    height: 200px !important;
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 358px) {
+  .Es-content2 {
+    font-size: 16px;
+  }
+  .Es-content3 {
+    font-size: 12px;
+  }
+}

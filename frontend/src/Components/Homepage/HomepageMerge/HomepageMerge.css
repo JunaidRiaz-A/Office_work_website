@@ -1,0 +1,11 @@
+.section-gap {
+  margin-top: 40px; /* Adjust this value to increase/decrease the gap */
+  margin-bottom: 40px; /* Optional: Adds space below FAQs if needed */
+}
+
+@media only screen and (max-width: 768px) {
+  .section-gap {
+    margin-top: 20px; /* Reduced gap for mobile screens */
+    margin-bottom: 20px;
+  }
+}

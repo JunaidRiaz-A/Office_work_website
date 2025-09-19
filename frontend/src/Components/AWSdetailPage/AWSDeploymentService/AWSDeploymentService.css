@@ -1,0 +1,296 @@
+.main_div_AWSDeploymentService {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-bottom: 4%;
+}
+.heading_main_div_AWSDeploymentService {
+  color: #0a0a0a;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+  margin-top: 40px;
+}
+.div_hr_line {
+  background: #051d71;
+  width: 90px;
+  height: 5px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.main_card_blue_deployment {
+  background: linear-gradient(180deg, #023496 0%, #2c7ac6 100%);
+  box-shadow: 4px 10px 10px 3px #00000014;
+  width: 96%;
+  margin-left: 2%;
+  height: 471px;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+.main_div_heading {
+  height: 230px;
+}
+.para_card_heading_aws {
+  color: #ff6809;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  margin-top: 15px;
+}
+.para_card_aws {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+
+.awslogo {
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .main_div_AWSDeploymentService {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .heading_main_div_AWSDeploymentService {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.4px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .div_hr_line {
+    background: #051d71;
+    width: 90px;
+    height: 5px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+  }
+  .main_card_blue_deployment {
+    background: linear-gradient(180deg, #023496 0%, #2c7ac6 100%);
+    box-shadow: 4px 10px 10px 3px #00000014;
+    width: 96%;
+    margin-left: 2%;
+    height: 471px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .main_div_heading {
+    height: 230px;
+  }
+  .para_card_heading_aws {
+    color: #ff6809;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .para_card_aws {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .awslogo {
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .main_div_AWSDeploymentService {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .heading_main_div_AWSDeploymentService {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.4px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .div_hr_line {
+    background: #051d71;
+    width: 90px;
+    height: 5px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+  }
+  .main_card_blue_deployment {
+    background: linear-gradient(180deg, #023496 0%, #2c7ac6 100%);
+    box-shadow: 4px 10px 10px 3px #00000014;
+    width: 96%;
+    margin-left: 2%;
+    height: 471px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .main_div_heading {
+    height: 230px;
+  }
+  .para_card_heading_aws {
+    color: #ff6809;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .para_card_aws {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .awslogo {
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .main_div_AWSDeploymentService {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .heading_main_div_AWSDeploymentService {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .div_hr_line {
+    background: #051d71;
+    width: 90px;
+    height: 5px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+  }
+  .main_card_blue_deployment {
+    background: linear-gradient(180deg, #023496 0%, #2c7ac6 100%);
+    box-shadow: 4px 10px 10px 3px #00000014;
+    width: 96%;
+    margin-left: 2%;
+    height: 371px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .main_div_heading {
+    height: 190px;
+  }
+  .para_card_heading_aws {
+    color: #ff6809;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .para_card_aws {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .awslogo {
+    margin-top: 0px;
+    width: 20px;
+    height: 33px;
+  }
+}
+
+
+@media only screen and (max-width: 860px) {
+    .main_div_AWSDeploymentService {
+      width: 100%;
+      height: auto;
+      background-color: white;
+    }
+    .heading_main_div_AWSDeploymentService {
+      color: #0a0a0a;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28.4px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .div_hr_line {
+      background: #051d71;
+      width: 90px;
+      height: 5px;
+      border-radius: 30px;
+      margin-bottom: 15px;
+    }
+    .main_card_blue_deployment {
+      background: linear-gradient(180deg, #023496 0%, #2c7ac6 100%);
+      box-shadow: 4px 10px 10px 3px #00000014;
+      width: 96%;
+      margin-left: 2%;
+      height: 300px;
+      margin-top: 20px;
+      border-radius: 15px;
+      padding: 5px;
+    }
+    
+    .main_div_heading {
+      height: 160px;
+    }
+    .para_card_heading_aws {
+      color: #ff6809;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 28px;
+      text-align: left;
+      margin-top: 15px;
+    }
+    .para_card_aws {
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 18px;
+      text-align: left;
+    }
+  
+    .awslogo {
+      margin-top: 0px;
+      width: 20px;
+      height: 33px;
+    }
+  }

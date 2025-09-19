@@ -1,0 +1,227 @@
+.main_div_aboutusnavbar {
+  background-color: #1e3a8a;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Heading_navbar {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.para_aboutus_navbar_white {
+  color: white;
+  margin: 0 5px;
+}
+
+.para_aboutus_navbar_orange {
+  color: #f59e0b;
+  margin: 0 5px;
+}
+
+.main_heading_blog {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main_div_add_team_member {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.label-icon {
+  margin-right: 5px;
+}
+
+.form-control,
+.form-control-file {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+.file-upload-wrapper {
+  position: relative;
+  border: 2px dashed #d1d5db;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background: #f9fafb;
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-icon {
+  font-size: 2rem;
+  color: #6b7280;
+}
+
+.upload-text {
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+.add-team-member-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-team-member-btn:hover {
+  background-color: #2563eb;
+}
+
+.btn-icon {
+  margin-right: 5px;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.main_div_table_job_show {
+  margin-top: 40px;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.gallery-line {
+  width: 50px;
+  height: 2px;
+  background-color: #1e40af;
+  margin: 0 auto 20px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.gallery-item {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button:hover {
+  background-color: #dc2626;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #3b82f6;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.page-button.active {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.toast.success {
+  background-color: #f7f8f7;
+  color: #065f46;
+}
+
+.toast.error {
+  background-color: #efe4e4;
+  color: #991b1b;
+}
+
+.toast-content {
+  margin: 0;
+}

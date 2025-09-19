@@ -1,0 +1,220 @@
+/* Existing styles remain the same */
+.main_div_TipDetail {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Add navbar styles */
+.main_div_aboutusnavbar {
+  width: 100%;
+  height: auto;
+  background-color: #023496;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Heading_navbar {
+  font-family: "Livvic", sans-serif;
+  font-size: 31.8px;
+  font-weight: 700;
+  line-height: 38.16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.para_aboutus_navbar_white {
+  font-family: "Livvic", sans-serif;
+  font-size: 18.17px;
+  font-weight: 400;
+  line-height: 29.53px;
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+.para_aboutus_navbar_orange {
+  font-family: "Livvic", sans-serif;
+  font-size: 18.17px;
+  font-weight: 400;
+  line-height: 29.53px;
+  color: #ff5e15;
+  margin: 0 5px;
+}
+
+/* Rest of the existing styles remain unchanged */
+.img_bg_tipdetail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.grey_detail_div {
+  width: 100%;
+  height: auto;
+  background: #f3f3f5;
+  padding: 30px 15px;
+}
+
+.heading_orange_tipdetail {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  color: #ff5e15;
+}
+
+.para_black_tipdetail {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #404653;
+}
+
+.project_info_div {
+  background: linear-gradient(245.27deg, #0b70e1 19%, #03228f 100%);
+  width: 96%;
+  margin-left: 4%;
+  height: auto;
+  border-radius: 5.68px;
+  padding: 20px 15px 25px;
+}
+
+.project_info_heading {
+  font-family: "Livvic", sans-serif;
+  font-size: 31.8px;
+  font-weight: 700;
+  line-height: 38.16px;
+  text-align: left;
+  margin-top: 15px;
+  color: #ffffff;
+  margin-left: 13px;
+}
+
+.detail_heading_project_info {
+  color: #ffffff;
+  font-family: "Livvic", sans-serif;
+  font-size: 18.17px;
+  font-weight: 600;
+  line-height: 29.53px;
+  text-align: left;
+}
+
+.detail_heading_project_info1 {
+  font-family: "Livvic", sans-serif;
+  font-size: 18.17px;
+  font-weight: 400;
+  line-height: 29.53px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.blue_div_questions {
+  background: linear-gradient(250.22deg, #0b70e1 19%, #03228f 100%);
+  width: 96%;
+  margin-left: 4%;
+  height: auto;
+  border-radius: 5.68px;
+  padding: 35px 30px 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.btn_call_questions {
+  background: #ffffff;
+  width: 79.49px;
+  height: 79.49px;
+  border-radius: 39.75px;
+  color: #03228f;
+  border: none;
+  outline: none;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.cll_us_question_heading {
+  color: #ffffff;
+  font-family: "Livvic", sans-serif;
+  font-size: 27.25px;
+  font-weight: 700;
+  line-height: 30.69px;
+  text-align: center;
+  margin-top: 35px !important;
+}
+
+.cll_us_phone {
+  font-family: "Livvic", sans-serif;
+  font-size: 34.07px;
+  font-weight: 700;
+  line-height: 45.42px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 25px !important;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1730px) {
+  .Heading_navbar { font-size: 26.8px; line-height: 34.16px; }
+  .para_aboutus_navbar_white, .para_aboutus_navbar_orange { font-size: 14.17px; line-height: 24.53px; }
+  .heading_orange_tipdetail { font-size: 24px; line-height: 32px; }
+  .para_black_tipdetail { font-size: 16px; line-height: 26.8px; }
+  .project_info_heading { font-size: 26.8px; line-height: 34.16px; }
+  .detail_heading_project_info, .detail_heading_project_info1 { font-size: 14.17px; line-height: 24.53px; }
+  .btn_call_questions { width: 69.49px; height: 69.49px; font-size: 28px; }
+  .cll_us_question_heading { font-size: 22.25px; line-height: 26.69px; }
+  .cll_us_phone { font-size: 28.07px; line-height: 38.42px; }
+}
+
+@media only screen and (max-width: 1430px) {
+  .Heading_navbar { font-size: 22.8px; line-height: 28.16px; }
+  .para_aboutus_navbar_white, .para_aboutus_navbar_orange { font-size: 12.17px; line-height: 20.53px; }
+  .heading_orange_tipdetail { font-size: 20px; line-height: 28px; }
+  .para_black_tipdetail { font-size: 14px; line-height: 22.8px; }
+  .project_info_heading { font-size: 22.8px; line-height: 28.16px; }
+  .detail_heading_project_info, .detail_heading_project_info1 { font-size: 12.17px; line-height: 20.53px; }
+  .btn_call_questions { width: 59.49px; height: 59.49px; font-size: 22px; }
+  .cll_us_question_heading { font-size: 18.25px; line-height: 26.69px; }
+  .cll_us_phone { font-size: 24.07px; line-height: 32.42px; }
+}
+
+@media only screen and (max-width: 1280px) {
+  .Heading_navbar { font-size: 18.8px; line-height: 22.16px; }
+  .para_aboutus_navbar_white, .para_aboutus_navbar_orange { font-size: 12.17px; line-height: 18.53px; }
+  .heading_orange_tipdetail { font-size: 18px; line-height: 28px; }
+  .para_black_tipdetail { font-size: 12px; line-height: 22.8px; }
+  .project_info_heading { font-size: 18.8px; line-height: 22.16px; }
+  .detail_heading_project_info, .detail_heading_project_info1 { font-size: 12.17px; line-height: 18.53px; }
+  .btn_call_questions { width: 49.49px; height: 49.49px; font-size: 20px; }
+  .cll_us_question_heading { font-size: 16.25px; line-height: 22.69px; }
+  .cll_us_phone { font-size: 20.07px; line-height: 28.42px; }
+}
+
+@media only screen and (max-width: 991px) {
+  .project_info_div { width: 100%; margin-left: 0; margin-top: 15px; }
+  .blue_div_questions { width: 100%; margin-left: 0; }
+  .Heading_navbar { font-size: 16.8px; line-height: 20.16px; }
+  .para_aboutus_navbar_white, .para_aboutus_navbar_orange { font-size: 12px; line-height: 16px; }
+  .heading_orange_tipdetail { font-size: 16px; line-height: 24px; }
+  .para_black_tipdetail { font-size: 12px; line-height: 20.8px; }
+  .project_info_heading { font-size: 16.8px; line-height: 20.16px; }
+  .detail_heading_project_info, .detail_heading_project_info1 { font-size: 12px; line-height: 16px; }
+  .btn_call_questions { width: 39.49px; height: 39.49px; font-size: 16px; }
+  .cll_us_question_heading { font-size: 14px; line-height: 22px; }
+  .cll_us_phone { font-size: 16.07px; line-height: 24.42px; }
+}
+
+@media only screen and (max-width: 767px) {
+  .img_bg_tipdetail { width: 100%; height: auto; }
+  .grey_detail_div { width: 100%; }
+  .Heading_navbar { font-size: 16.8px; line-height: 20.16px; }
+  .para_aboutus_navbar_white, .para_aboutus_navbar_orange { font-size: 12px; line-height: 16px; }
+  .heading_orange_tipdetail { font-size: 14px; line-height: 18px; }
+  .para_black_tipdetail { font-size: 12px; line-height: 18.8px; }
+  .project_info_div { width: 100%; margin-left: 0; }
+  .blue_div_questions { width: 100%; margin-left: 0; }
+}

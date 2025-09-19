@@ -1,0 +1,385 @@
+/* General container and layout */
+.main_div_CaseStudy {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: white;
+}
+
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header_section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.case_study_sub_heading {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 40px; /* Adjusted for modern look */
+  font-weight: 800;
+  color: #023496;
+  margin-bottom: 15px;
+}
+
+.hr_line {
+  width: 80px; /* Adjusted for modern look */
+  height: 4px;
+  background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.no_case_studies {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #666;
+  margin-top: 50px;
+}
+
+/* Case Study Grid */
+.case_studies_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 30px; /* Spacing between cards */
+}
+
+.case_study_link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Card Styles */
+.card_case_study {
+  position: relative;
+  border-radius: 12px; /* More rounded corners */
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 450px; /* Fixed height for consistency */
+  display: flex;
+  flex-direction: column;
+}
+
+.card_case_study:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card_image_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Image takes full height of card */
+  overflow: hidden;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out; /* Smooth zoom on hover */
+}
+
+.card_case_study:hover .card_image {
+  transform: scale(1.08);
+}
+
+.card_image_overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 50%);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.card_case_study:hover .card_image_overlay {
+  opacity: 1;
+}
+
+.card_hover_content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95); /* Slightly less transparent */
+  padding: 25px; /* More padding */
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smoother slide-up */
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card_case_study:hover .card_hover_content {
+  transform: translateY(0);
+}
+
+.content_row {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Spacing between text and button */
+}
+
+.content_text_col {
+  flex-grow: 1;
+}
+
+.content_button_col {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.heading_card_usecase {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px; /* Slightly larger */
+  font-weight: 800;
+  color: #023496;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.para_card_usecase {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px; /* Slightly larger */
+  font-weight: 400;
+  color: #404653;
+  line-height: 26px;
+}
+
+.read_more_btn {
+  background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px; /* Slightly larger */
+  font-weight: 500;
+  padding: 12px 24px; /* More prominent button */
+  border: none;
+  border-radius: 8px; /* More rounded */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.read_more_btn:hover {
+  background: linear-gradient(262.5deg, #03228f 19%, #4e95ed 100%); /* Reverse gradient on hover */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Pagination Styles */
+.pagination_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px; /* More spacing */
+  margin-bottom: 20px;
+  gap: 10px; /* Spacing between buttons */
+}
+
+.pagination-dot,
+.pagination-arrow {
+  width: 45px; /* Larger buttons */
+  height: 45px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px; /* Larger font */
+  color: #333;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.pagination-dot.active,
+.pagination-dot:hover,
+.pagination-arrow:hover:not(.disabled) {
+  background-color: #ff6200; /* Active/hover color */
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.pagination-arrow.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pagination-ellipsis {
+  padding: 8px 0;
+  margin: 0 5px;
+  color: #6c757d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.error_message {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #ff0000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Loader Styles */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.loader {
+  width: 60px; /* Larger loader */
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.1) 0%, #023496 100%);
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px; /* Larger inner circle */
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.loader span {
+  display: inline-block;
+  width: 10px; /* Larger dots */
+  height: 10px;
+  border-radius: 50%;
+  background: #023496;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.loader span:nth-child(2) {
+  animation-delay: -0.33s;
+}
+
+.loader span:nth-child(3) {
+  animation-delay: -0.66s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -25px);
+  } /* More pronounced bounce */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .case_study_sub_heading {
+    font-size: 36px;
+  }
+  .card_case_study {
+    height: 400px;
+  }
+  .heading_card_usecase {
+    font-size: 20px;
+  }
+  .para_card_usecase {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .read_more_btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_div_CaseStudy {
+    padding-top: 8%;
+    padding-bottom: 15%;
+  }
+  .case_study_sub_heading {
+    font-size: 30px;
+  }
+  .case_studies_grid {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+  .card_case_study {
+    height: auto; /* Auto height for better responsiveness */
+    min-height: 350px;
+  }
+  .card_hover_content {
+    padding: 20px;
+  }
+  .content_row {
+    flex-direction: column; /* Stack text and button vertically */
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .content_button_col {
+    width: 100%;
+  }
+  .read_more_btn {
+    width: 100%; /* Full width button */
+    text-align: center;
+  }
+  .pagination_div {
+    margin-top: 40px;
+  }
+  .pagination-dot,
+  .pagination-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .pagination-ellipsis {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .case_study_sub_heading {
+    font-size: 26px;
+  }
+  .heading_card_usecase {
+    font-size: 18px;
+  }
+  .para_card_usecase {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,216 @@
+.main_div_EventGallery {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+}
+.culture_para {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #03228f;
+}
+.our_event_gallery_para {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.hr_line_blue_gallery {
+  width: 90px;
+  height: 5px;
+  border-radius: 30px;
+  background: #051d71;
+  margin-bottom: 20px;
+}
+.gallery_img {
+  width: 100%;
+  height: 220.66px;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery_img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Custom styles for pagination buttons */
+.btn-outline-primary {
+  color: #051d71;
+  border-color: #051d71;
+}
+.btn-outline-primary:hover {
+  background-color: #051d71;
+  color: white;
+  border-color: #051d71;
+}
+.btn-outline-primary.active {
+  background-color: #051d71;
+  color: white;
+  border-color: #051d71;
+}
+.btn-outline-primary:disabled {
+  color: #051d71;
+  border-color: #051d71;
+  opacity: 0.5;
+}
+@media only screen and (max-width: 1200px) {
+    .main_div_EventGallery {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+    }
+    .culture_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 8px;
+        text-align: center;
+        color: #03228f;
+    }
+    .our_event_gallery_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 30.4px;
+        text-align: center;
+        color: #0a0a0a;
+    }
+    .hr_line_blue_gallery {
+        width: 90px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 20px;
+    }
+    .gallery_img {
+        width: 100%;
+        height: 180.66px;
+        display: block;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main_div_EventGallery {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+    }
+    .culture_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2px;
+        text-align: center;
+        color: #03228f;
+    }
+    .our_event_gallery_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 15.4px;
+        text-align: center;
+        color: #0a0a0a;
+    }
+    .hr_line_blue_gallery {
+        width: 70px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 20px;
+    }
+    .gallery_img {
+        width: 80%;
+        margin-left: 10%;
+        height: 180.66px;
+        display: block;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .main_div_EventGallery {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+    }
+    .culture_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2px;
+        text-align: center;
+        color: #03228f;
+    }
+    .our_event_gallery_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 5.4px;
+        text-align: center;
+        color: #0a0a0a;
+    }
+    .hr_line_blue_gallery {
+        width: 60px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 20px;
+    }
+    .gallery_img {
+        width: 60%;
+        margin-left: 20%;
+        height: 180.66px;
+        display: block;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main_div_EventGallery {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+    }
+    .culture_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2px;
+        text-align: center;
+        color: #03228f;
+    }
+    .our_event_gallery_para {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 5.4px;
+        text-align: center;
+        color: #0a0a0a;
+    }
+    .hr_line_blue_gallery {
+        width: 60px;
+        height: 5px;
+        border-radius: 30px;
+        background: #051d71;
+        margin-bottom: 20px;
+    }
+    .gallery_img {
+        width: 80%;
+        margin-left: 10%;
+        height: 200.66px;
+        display: block;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,456 @@
+.main_div_ourteam {
+  width: 100%;
+  height: auto;
+  background: #f6f7f9;
+  padding: 5%;
+}
+
+.our_team_heading {
+  color: #03228f;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.our_team_heading_meet {
+  color: #0a0a0a;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+}
+
+.hr_line_black {
+  background: #051d71;
+  width: 90px;
+  height: 5px;
+  border-radius: 30px 0px 0px 0px;
+  margin-bottom: 30px;
+}
+
+.featured-members-section {
+  margin-bottom: 40px;
+}
+
+.regular-members-section {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Featured Members Styles (Large) */
+.picture_team {
+  width: 100%;
+  height: 400.77px;
+  display: block;
+  object-fit: cover;
+  margin-top: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.picture_team:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.white_div_name_team {
+  box-shadow: 0px 10px 60px 0px #0000000d;
+  width: 100%;
+  height: 92.39px;
+  background: #ffffff;
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+.white_div_name_team.show {
+  opacity: 1;
+}
+
+.hover_div {
+  position: absolute;
+  bottom: -110%;
+  left: 0;
+  box-shadow: 0px 10px 60px 0px #0000000d;
+  width: 94%;
+  margin-left: 3%;
+  margin-bottom: 8px !important;
+  height: 92.39px;
+  background: #ffffff;
+  transition: bottom 0.5s ease;
+  z-index: 0;
+}
+
+.hover_div.slide-up {
+  bottom: 0;
+}
+
+.btn_social_media_links_team {
+  width: 36px;
+  height: 36px;
+  border-radius: 21px;
+  background: #323c5b;
+  border-color: none;
+  outline: none;
+  color: #ffffff;
+  border-style: none;
+  margin-right: 6px;
+  margin-top: 25px;
+}
+
+.team_heading_name {
+  color: #00224f;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 12.4px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.team_heading_name_designation {
+  color: #54515a;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: center;
+}
+
+/* Small Members Styles */
+.picture_team_small {
+  width: 100%;
+  height: 193.76px;
+  display: block;
+  object-fit: cover;
+  margin-top: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.picture_team_small:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.white_div_name_team_small {
+  box-shadow: 0px 10px 60px 0px #0000000d;
+  width: 100%;
+  height: 55.46px;
+  background: #ffffff;
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+.white_div_name_team_small.show {
+  opacity: 1;
+}
+
+.hover_div_small {
+  position: absolute;
+  bottom: -110%;
+  left: 0;
+  box-shadow: 0px 10px 60px 0px #0000000d;
+  width: 100%;
+  height: 55.46px;
+  background: #ffffff;
+  transition: bottom 0.5s ease;
+  z-index: 0;
+}
+
+.hover_div_small.slide-up {
+  bottom: 0;
+}
+
+.btn_social_media_links_team_small {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: #323c5b;
+  border-color: none;
+  outline: none;
+  color: #ffffff;
+  border-style: none;
+  margin-right: 4px;
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+.team_heading_name_small {
+  color: #00224f;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13.21px;
+  font-weight: 800;
+  line-height: 1.85px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.team_heading_name_designation_small {
+  color: #54515a;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 9.6px;
+  font-weight: 400;
+  line-height: 1.61px;
+  text-align: center;
+}
+
+/* Pagination Styles */
+.pagination-container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.pagination-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #051d71;
+  color: #051d71;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination-btn:hover {
+  background: #051d71;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.pagination-btn.active {
+  background: #051d71;
+  color: #ffffff;
+}
+
+.shownothing {
+  display: none;
+}
+
+.col-lg-4:hover .white_div_name_team {
+  opacity: 0;
+}
+
+.col-lg-2:hover .white_div_name_team_small {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+  .picture_team {
+    height: 300.77px;
+  }
+
+  .picture_team_small {
+    height: 143.76px;
+  }
+
+  .team_heading_name {
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  .team_heading_name_designation {
+    font-size: 14px;
+  }
+
+  .team_heading_name_small {
+    font-size: 11.21px;
+    padding-top: 18px;
+  }
+
+  .team_heading_name_designation_small {
+    font-size: 9.6px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main_div_ourteam {
+    padding: 0%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .picture_team {
+    height: 300.77px;
+  }
+
+  .picture_team_small {
+    height: 193.76px;
+  }
+
+  .team_heading_name {
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  .team_heading_name_designation {
+    font-size: 14px;
+  }
+
+  .team_heading_name_small {
+    font-size: 10.21px;
+    padding-top: 18px;
+  }
+
+  .team_heading_name_designation_small {
+    font-size: 8.6px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .our_team_heading {
+    font-size: 12px;
+    line-height: 8px;
+  }
+
+  .our_team_heading_meet {
+    font-size: 22px;
+    line-height: 20.4px;
+  }
+
+  .hr_line_black {
+    width: 70px;
+  }
+
+  .picture_team {
+    height: 350.77px;
+  }
+
+  .picture_team_small {
+    height: 240.76px;
+  }
+
+  .team_heading_name {
+    font-size: 16px;
+    padding-top: 25px;
+  }
+
+  .team_heading_name_designation {
+    font-size: 12px;
+  }
+
+  .team_heading_name_small {
+    font-size: 10.21px;
+    padding-top: 18px;
+  }
+
+  .team_heading_name_designation_small {
+    font-size: 8.6px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .our_team_heading {
+    font-size: 12px;
+    line-height: 8px;
+  }
+
+  .our_team_heading_meet {
+    font-size: 18px;
+    line-height: 16.4px;
+  }
+
+  .hr_line_black {
+    width: 70px;
+  }
+
+  .picture_team {
+    width: 50%;
+    margin-left: 25%;
+    height: 270.77px;
+  }
+
+  .white_div_name_team {
+    width: 50%;
+    margin-left: 25%;
+    height: 72.39px;
+  }
+
+  .hover_div {
+    width: 49%;
+    margin-left: 26%;
+    height: 72.39px;
+  }
+
+  .picture_team_small {
+    height: 240.76px;
+  }
+
+  .team_heading_name {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+
+  .team_heading_name_designation {
+    font-size: 12px;
+  }
+
+  .team_heading_name_small {
+    font-size: 10.21px;
+    padding-top: 18px;
+  }
+
+  .team_heading_name_designation_small {
+    font-size: 8.6px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .our_team_heading {
+    font-size: 12px;
+    line-height: 8px;
+  }
+
+  .our_team_heading_meet {
+    font-size: 16px;
+    line-height: 14.4px;
+  }
+
+  .hr_line_black {
+    width: 60px;
+  }
+
+  .picture_team {
+    width: 70%;
+    margin-left: 15%;
+    height: 270.77px;
+  }
+
+  .white_div_name_team {
+    width: 70%;
+    margin-left: 15%;
+    height: 72.39px;
+  }
+
+  .hover_div {
+    width: 70%;
+    margin-left: 15%;
+    height: 72.39px;
+  }
+
+  .picture_team_small {
+    height: 180.76px;
+  }
+
+  .team_heading_name {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+
+  .team_heading_name_designation {
+    font-size: 12px;
+  }
+
+  .team_heading_name_small {
+    font-size: 10.21px;
+    padding-top: 18px;
+  }
+
+  .team_heading_name_designation_small {
+    font-size: 8.6px;
+  }
+}

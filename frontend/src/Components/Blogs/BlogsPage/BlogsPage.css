@@ -1,0 +1,1665 @@
+.main_div_blogpage {
+  width: 100%;
+  height: auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: white;
+}
+
+.icon_blog_img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0px 0px;
+  display: block;
+  object-fit: cover;
+}
+
+.white_detail_div_blog {
+  background: #ffffff;
+  width: 100%;
+  height: 391.78px;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 10px 60px 0px #0000000d;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.orange_blog_icon {
+  color: #ff5e15;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.admin_para_blog {
+  color: #404653;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.orange_heading_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  color: #ff5e15;
+}
+
+.black_para_blog {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #404653;
+}
+
+.btn_read_more_blog {
+  width: 153.47px;
+  height: 46px;
+  border-radius: 5px;
+  background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  outline: none;
+  border-color: none;
+  border-style: none;
+}
+
+/* Enhanced No Posts Container */
+.no_posts_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 12px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+  margin: 40px 0;
+  border: 1px solid #f0f0f0;
+}
+
+.no_posts_icon {
+  margin-bottom: 24px;
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.no_posts_title {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #023496;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.no_posts_description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #6c757d;
+  max-width: 500px;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+/* Enhanced Button Styles */
+.btn_view_all_posts_enhanced {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #ff5e15 0%, #ff8a50 100%);
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 16px rgba(255, 94, 21, 0.3);
+  text-decoration: none;
+}
+
+.btn_view_all_posts_enhanced:hover {
+  background: linear-gradient(135deg, #e55412 0%, #ff7a40 100%);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 20px rgba(255, 94, 21, 0.4);
+}
+
+.btn_view_all_posts_enhanced:active {
+  transform: translateY(0px);
+  box-shadow: 0px 2px 8px rgba(255, 94, 21, 0.3);
+}
+
+.btn_reset_filters_enhanced {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #023496 0%, #4e95ed 100%);
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 12px rgba(2, 52, 150, 0.25);
+}
+
+.btn_reset_filters_enhanced:hover {
+  background: linear-gradient(135deg, #012a7a 0%, #3d7bd1 100%);
+  transform: translateY(-1px);
+  box-shadow: 0px 4px 16px rgba(2, 52, 150, 0.35);
+}
+
+.btn_icon {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.btn_view_all_posts_enhanced:hover .btn_icon,
+.btn_reset_filters_enhanced:hover .btn_icon {
+  transform: translateX(2px);
+}
+
+.search_div_blog {
+  background: #f3f3f5;
+  width: 96;
+  margin-left: 4%;
+  height: 120px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding-top: 27px;
+}
+
+.white_div_search {
+  background: #ffffff;
+  border: 1px solid #fbfbfb;
+  width: 90%;
+  margin-left: 5%;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px;
+}
+
+.input_search_blog {
+  color: #757575;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 17px;
+  border-color: none;
+  border-style: none;
+  outline: none;
+}
+
+.btn_blue_search {
+  background: #023496;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border-color: none;
+  border-style: none;
+  margin-top: 5px;
+  border-radius: 30px;
+  color: white;
+}
+
+.category_div_blog {
+  background: #f3f3f5;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  padding: 35px;
+}
+
+.blue_div_category {
+  background: #023496;
+  width: 5px;
+  height: 26.39px;
+  margin-right: 15px;
+}
+
+.category_heading_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26.4px;
+  text-align: left;
+  color: #023496;
+  margin-bottom: 20px;
+}
+
+.arrow_right_cat {
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.category_business_para {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.8px;
+  text-align: left;
+  color: #404653;
+}
+
+.hr_line_dotted {
+  border-top: 2px dotted #cccccc;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.recent_post_div_blog {
+  background: #f3f3f5;
+  width: 100%;
+  height: 464.11px;
+  border-radius: 6px;
+  padding: 35px;
+  margin-top: 20px;
+}
+
+.blue_div_recent_post {
+  background: #023496;
+  width: 5px;
+  height: 26.39px;
+  margin-right: 15px;
+}
+
+.recent_post_heading_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26.4px;
+  text-align: left;
+  color: #023496;
+  margin-bottom: 30px;
+}
+
+.scroll_div_blog {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.recent_img_blog {
+  width: 70px;
+  height: 70px;
+  display: block;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.icon_time_blog {
+  margin-top: 3px;
+  margin-left: 10px;
+  color: #023496;
+  margin-bottom: 15px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.recent_time_blog {
+  color: #404653;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 400;
+  line-height: 11.8px;
+  text-align: left;
+  margin-left: 1px;
+}
+
+.recent_heading_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  color: #023496;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.tags_div_blog {
+  background: #f3f3f5;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  padding: 35px;
+  margin-top: 20px;
+}
+
+.blue_div_tags {
+  background: #023496;
+  width: 5px;
+  height: 26.39px;
+  margin-right: 15px;
+}
+
+.tags_heading_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26.4px;
+  text-align: left;
+  color: #023496;
+  margin-bottom: 30px;
+}
+
+.tag_btn_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: #404653;
+  padding: 4.6px 15.63px 5.4px 16px;
+  background-color: #ffffff;
+  border-color: none;
+  border-style: none;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tag_btn_blog:hover {
+  color: white;
+  background-color: #ff5e15;
+}
+
+/* Responsive Styles for Enhanced Elements */
+@media only screen and (max-width: 1410px) {
+  .no_posts_title {
+    font-size: 24px;
+  }
+
+  .no_posts_description {
+    font-size: 15px;
+  }
+
+  .btn_view_all_posts_enhanced {
+    font-size: 15px;
+    padding: 12px 24px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .no_posts_container {
+    padding: 50px 15px;
+  }
+
+  .no_posts_title {
+    font-size: 22px;
+  }
+
+  .no_posts_description {
+    font-size: 14px;
+  }
+
+  .btn_view_all_posts_enhanced {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .no_posts_container {
+    padding: 40px 10px;
+    margin: 20px 0;
+  }
+
+  .no_posts_icon svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .no_posts_title {
+    font-size: 20px;
+  }
+
+  .no_posts_description {
+    font-size: 13px;
+    max-width: 100%;
+  }
+
+  .btn_view_all_posts_enhanced {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+
+  .btn_reset_filters_enhanced {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+
+/* Keep all existing media queries for other elements... */
+@media only screen and (max-width: 1410px) {
+  .main_div_blogpage {
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: white;
+  }
+  .icon_blog_img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .white_detail_div_blog {
+    background: #ffffff;
+    width: 100%;
+    height: 391.78px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 10px 60px 0px #0000000d;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .orange_blog_icon {
+    color: #ff5e15;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+  .admin_para_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  .orange_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    color: #ff5e15;
+  }
+  .black_para_blog {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .btn_read_more_blog {
+    width: 153.47px;
+    height: 46px;
+    border-radius: 5px;
+    background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+    color: #ffffff;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    outline: none;
+    border-color: none;
+    border-style: none;
+  }
+  .search_div_blog {
+    background: #f3f3f5;
+    width: 96;
+    margin-left: 4%;
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-top: 27px;
+  }
+  .white_div_search {
+    background: #ffffff;
+    border: 1px solid #fbfbfb;
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px;
+  }
+  .input_search_blog {
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 17px;
+    border-color: none;
+    border-style: none;
+    outline: none;
+  }
+  .btn_blue_search {
+    background: #023496;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border-color: none;
+    border-style: none;
+    margin-top: 9px;
+    border-radius: 30px;
+    color: white;
+  }
+  .category_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 35px;
+  }
+  .blue_div_category {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .category_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 20px;
+  }
+  .arrow_right_cat {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .category_business_para {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .hr_line_dotted {
+    border-top: 2px dotted #cccccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .recent_post_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: 464.11px;
+    border-radius: 6px;
+    padding: 35px;
+    margin-top: 20px;
+  }
+  .blue_div_recent_post {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .recent_post_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .scroll_div_blog {
+    height: 300px;
+    overflow-y: auto;
+  }
+  .recent_img_blog {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+  }
+  .icon_time_blog {
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #023496;
+    margin-bottom: 15px !important;
+  }
+  .recent_time_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 11.8px;
+    text-align: left;
+    margin-left: 1px;
+  }
+  .recent_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #023496;
+    margin-left: 10px;
+  }
+  .tags_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 35px;
+    margin-top: 20px;
+  }
+  .blue_div_tags {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .tags_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .tag_btn_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #404653;
+    padding: 4.6px 15.63px 5.4px 16px;
+    background-color: #ffffff;
+    border-color: none;
+    border-style: none;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .tag_btn_blog:hover {
+    color: white;
+    background-color: #ff5e15;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .main_div_blogpage {
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: white;
+  }
+  .icon_blog_img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .white_detail_div_blog {
+    background: #ffffff;
+    width: 100%;
+    height: 331.78px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 10px 60px 0px #0000000d;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .orange_blog_icon {
+    color: #ff5e15;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+  .admin_para_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  .orange_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    color: #ff5e15;
+  }
+  .black_para_blog {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .btn_read_more_blog {
+    width: 153.47px;
+    height: 46px;
+    border-radius: 5px;
+    background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+    color: #ffffff;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    outline: none;
+    border-color: none;
+    border-style: none;
+  }
+  .search_div_blog {
+    background: #f3f3f5;
+    width: 96%;
+    margin-left: 4%;
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-top: 27px;
+  }
+  .white_div_search {
+    background: #ffffff;
+    border: 1px solid #fbfbfb;
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px;
+  }
+  .input_search_blog {
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 17px;
+    border-color: none;
+    border-style: none;
+    outline: none;
+  }
+  .btn_blue_search {
+    background: #023496;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border-color: none;
+    border-style: none;
+    margin-top: 9px;
+    border-radius: 30px;
+    color: white;
+  }
+  .category_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 35px;
+  }
+  .blue_div_category {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .category_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 20px;
+  }
+  .arrow_right_cat {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .category_business_para {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .hr_line_dotted {
+    border-top: 2px dotted #cccccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .recent_post_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: 464.11px;
+    border-radius: 6px;
+    padding: 35px;
+    margin-top: 20px;
+  }
+  .blue_div_recent_post {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .recent_post_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .scroll_div_blog {
+    height: 300px;
+    overflow-y: auto;
+  }
+  .recent_img_blog {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+  }
+  .icon_time_blog {
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #023496;
+    margin-bottom: 15px !important;
+  }
+  .recent_time_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 11.8px;
+    text-align: left;
+    margin-left: 1px;
+  }
+  .recent_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+    color: #023496;
+    margin-left: 10px;
+  }
+  .tags_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 35px;
+    margin-top: 20px;
+  }
+  .blue_div_tags {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .tags_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .tag_btn_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #404653;
+    padding: 4.6px 15.63px 5.4px 16px;
+    background-color: #ffffff;
+    border-color: none;
+    border-style: none;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .tag_btn_blog:hover {
+    color: white;
+    background-color: #ff5e15;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .main_div_blogpage {
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: white;
+  }
+  .icon_blog_img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .white_detail_div_blog {
+    background: #ffffff;
+    width: 100%;
+    height: 331.78px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 10px 60px 0px #0000000d;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .orange_blog_icon {
+    color: #ff5e15;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+  .admin_para_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  .orange_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: left;
+    color: #ff5e15;
+  }
+  .black_para_blog {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .btn_read_more_blog {
+    width: 153.47px;
+    height: 46px;
+    border-radius: 5px;
+    background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+    color: #ffffff;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    outline: none;
+    border-color: none;
+    border-style: none;
+  }
+  .search_div_blog {
+    background: #f3f3f5;
+    width: 96%;
+    margin-left: 4%;
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-top: 27px;
+  }
+  .white_div_search {
+    background: #ffffff;
+    border: 1px solid #fbfbfb;
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px;
+  }
+  .input_search_blog {
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 17px;
+    border-color: none;
+    border-style: none;
+    outline: none;
+  }
+  .btn_blue_search {
+    background: #023496;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-color: none;
+    border-style: none;
+    margin-top: 15px;
+    border-radius: 30px;
+    color: white;
+  }
+  .category_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 15px;
+  }
+  .blue_div_category {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .category_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 20px;
+  }
+  .arrow_right_cat {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .category_business_para {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .hr_line_dotted {
+    border-top: 2px dotted #cccccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .recent_post_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: 464.11px;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .blue_div_recent_post {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .recent_post_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .scroll_div_blog {
+    height: 300px;
+    overflow-y: auto;
+  }
+  .recent_img_blog {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+  }
+  .icon_time_blog {
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #023496;
+    margin-bottom: 15px !important;
+  }
+  .recent_time_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 11.8px;
+    text-align: left;
+    margin-left: 1px;
+  }
+  .recent_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+    color: #023496;
+    margin-left: 10px;
+  }
+  .tags_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .blue_div_tags {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .tags_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .tag_btn_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #404653;
+    padding: 4.6px 15.63px 5.4px 16px;
+    background-color: #ffffff;
+    border-color: none;
+    border-style: none;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .tag_btn_blog:hover {
+    color: white;
+    background-color: #ff5e15;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main_div_blogpage {
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: white;
+  }
+  .icon_blog_img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .white_detail_div_blog {
+    background: #ffffff;
+    width: 100%;
+    height: 331.78px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 10px 60px 0px #0000000d;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .orange_blog_icon {
+    color: #ff5e15;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+  .admin_para_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  .orange_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: left;
+    color: #ff5e15;
+  }
+  .black_para_blog {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .btn_read_more_blog {
+    width: 153.47px;
+    height: 46px;
+    border-radius: 5px;
+    background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+    color: #ffffff;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    outline: none;
+    border-color: none;
+    border-style: none;
+  }
+  .search_div_blog {
+    background: #f3f3f5;
+    width: 96%;
+    margin-left: 2%;
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-top: 27px;
+  }
+  .white_div_search {
+    background: #ffffff;
+    border: 1px solid #fbfbfb;
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px;
+  }
+  .input_search_blog {
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 17px;
+    border-color: none;
+    border-style: none;
+    outline: none;
+  }
+  .btn_blue_search {
+    background: #023496;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-color: none;
+    border-style: none;
+    margin-top: 15px;
+    border-radius: 30px;
+    color: white;
+  }
+  .category_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 15px;
+  }
+  .blue_div_category {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .category_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 20px;
+  }
+  .arrow_right_cat {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .category_business_para {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.8px;
+    text-align: left;
+    color: #404653;
+  }
+  .hr_line_dotted {
+    border-top: 2px dotted #cccccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .recent_post_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: 464.11px;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .blue_div_recent_post {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .recent_post_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .scroll_div_blog {
+    height: 300px;
+    overflow-y: auto;
+  }
+  .recent_img_blog {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+  }
+  .icon_time_blog {
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #023496;
+    margin-bottom: 15px !important;
+  }
+  .recent_time_blog {
+    color: #404653;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 11.8px;
+    text-align: left;
+    margin-left: 1px;
+  }
+  .recent_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+    color: #023496;
+    margin-left: 10px;
+  }
+  .tags_div_blog {
+    background: #f3f3f5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .blue_div_tags {
+    background: #023496;
+    width: 5px;
+    height: 26.39px;
+    margin-right: 15px;
+  }
+  .tags_heading_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 26.4px;
+    text-align: left;
+    color: #023496;
+    margin-bottom: 30px;
+  }
+  .tag_btn_blog {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #404653;
+    padding: 4.6px 15.63px 5.4px 16px;
+    background-color: #ffffff;
+    border-color: none;
+    border-style: none;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .tag_btn_blog:hover {
+    color: white;
+    background-color: #ff5e15;
+  }
+}
+/* Existing styles remain the same... */
+
+/* New hover effects for categories */
+.category_item_clickable {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 8px 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.category_item_clickable:hover {
+  background-color: rgba(2, 52, 150, 0.1);
+  padding-left: 8px;
+  transform: translateX(5px);
+}
+
+.category_item_clickable:hover .category_business_para {
+  color: #023496 !important;
+  font-weight: 600;
+}
+
+.category_item_clickable:hover .arrow_right_cat {
+  color: #023496;
+  transform: scale(1.2);
+}
+
+/* New hover effects for recent posts */
+.recent_post_link {
+  text-decoration: none !important;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.recent_post_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.recent_post_link:hover .recent_post_item {
+  background-color: rgba(2, 52, 150, 0.1);
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(2, 52, 150, 0.15);
+}
+
+.recent_post_link:hover .recent_heading_blog {
+  color: #023496 !important;
+  font-weight: 700;
+}
+
+.recent_post_link:hover .recent_time_blog {
+  color: #023496 !important;
+}
+
+.recent_post_link:hover .icon_time_blog {
+  color: #023496 !important;
+  transform: scale(1.1);
+}
+
+.recent_post_link:hover .recent_img_blog {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(2, 52, 150, 0.2);
+}
+
+/* Enhanced hover effects for tags */
+.tag_btn_blog {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: #404653;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tag_btn_blog::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(2, 52, 150, 0.1), transparent);
+  transition: left 0.5s;
+}
+
+.tag_btn_blog:hover::before {
+  left: 100%;
+}
+
+.tag_btn_blog:hover {
+  color: #ffffff !important;
+  background-color: #023496 !important;
+  border-color: #023496;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 52, 150, 0.3);
+}
+
+/* Updated button styles to match blue theme */
+.btn_view_all_posts_enhanced {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #023496 0%, #4e95ed 100%);
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 16px rgba(2, 52, 150, 0.3);
+  text-decoration: none;
+}
+
+.btn_view_all_posts_enhanced:hover {
+  background: linear-gradient(135deg, #012a7a 0%, #3d7bd1 100%);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 20px rgba(2, 52, 150, 0.4);
+}
+
+.btn_view_all_posts_enhanced:active {
+  transform: translateY(0px);
+  box-shadow: 0px 2px 8px rgba(2, 52, 150, 0.3);
+}
+
+/* Update no posts icon color to blue */
+.no_posts_icon svg path {
+  stroke: #023496;
+}
+
+/* Enhanced pagination with blue theme */
+.pagination_div button:hover {
+  background-color: #4e95ed !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 52, 150, 0.3);
+}
+
+/* Responsive adjustments for hover effects */
+@media only screen and (max-width: 767px) {
+  .category_item_clickable:hover,
+  .recent_post_link:hover .recent_post_item {
+    transform: none;
+    padding-left: 8px;
+  }
+  
+  .tag_btn_blog:hover {
+    transform: none;
+  }
+}
+
+/* Smooth transitions for all interactive elements */
+.arrow_right_cat,
+.icon_time_blog,
+.recent_img_blog {
+  transition: all 0.3s ease;
+}
+
+/* Focus states for accessibility */
+.category_item_clickable:focus,
+.recent_post_link:focus,
+.tag_btn_blog:focus {
+  outline: 2px solid #023496;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .category_item_clickable:hover,
+  .recent_post_link:hover .recent_post_item {
+    border: 2px solid #023496;
+  }
+  
+  .tag_btn_blog:hover {
+    border: 2px solid #ffffff;
+  }
+}

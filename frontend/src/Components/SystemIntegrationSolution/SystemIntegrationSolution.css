@@ -1,0 +1,436 @@
+/* System Integration Solution Styles */
+.main_div_work_speaks {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Heading Animations */
+.heading_work_speaks {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #2c3e50;
+  margin-bottom: 24px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
+
+.heading_work_speaks_para {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #5a6c7d;
+  margin-bottom: 0;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
+
+/* Button Styles */
+.btn_lets_talk {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  animation: fadeInUp 0.8s ease-out 0.6s forwards;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 160px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn_lets_talk::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn_lets_talk:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+.btn_lets_talk:hover::before {
+  left: 100%;
+}
+
+.btn_lets_talk:active {
+  transform: translateY(0) scale(1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* Statistics Section */
+.stats_section {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideInUp 1s ease-out 0.8s forwards;
+}
+
+.stats_title {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  line-height: 36px !important;
+  margin-bottom: 40px !important;
+  color: #2c3e50;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease-out 1.2s forwards;
+}
+
+.stats_cards_container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Individual Stat Cards */
+.stat_card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease-out forwards;
+  position: relative;
+  overflow: hidden;
+  min-width: 280px;
+  flex: 1;
+  max-width: 320px;
+}
+
+.stat_card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  transition: all 0.3s ease;
+}
+
+.stat_card_blue::before {
+  background: linear-gradient(135deg, #051d71 0%, #1e40af 100%);
+}
+
+.stat_card_orange::before {
+  background: linear-gradient(135deg, #ff5e15 0%, #ff8c42 100%);
+}
+
+.stat_card:nth-child(1) {
+  animation-delay: 1.4s;
+}
+
+.stat_card:nth-child(2) {
+  animation-delay: 1.6s;
+}
+
+.stat_card:nth-child(3) {
+  animation-delay: 1.8s;
+}
+
+.stat_card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.stat_card:hover::before {
+  height: 6px;
+}
+
+.stat_number {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 56px !important;
+  font-weight: 600 !important;
+  margin-bottom: 12px !important;
+  transition: all 0.3s ease;
+}
+
+.stat_card_blue .stat_number {
+  color: #051d71 !important;
+}
+
+.stat_card_orange .stat_number {
+  color: #ff5e15 !important;
+}
+
+.stat_description {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  color: #5a6c7d !important;
+  margin: 0;
+}
+
+.stat_card:hover .stat_number {
+  transform: scale(1.05);
+}
+
+/* Content Cards Section */
+.content_cards_section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.content_card {
+  background: white;
+  border-radius: 24px;
+  padding: 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideInCard 0.8s ease-out forwards;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.content_card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.content_card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.content_card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.content_card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.content_card:nth-child(5) {
+  animation-delay: 1.0s;
+}
+
+.content_card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(135deg, #051d71 0%, #ff5e15 50%, #1e40af 100%);
+  transition: all 0.3s ease;
+}
+
+.content_card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+.content_card:hover::before {
+  height: 8px;
+}
+
+.content_card_header {
+  padding: 40px 40px 20px 40px;
+  position: relative;
+}
+
+.content_card_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #2c3e50;
+  margin: 0;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.content_card:hover .content_card_title {
+  color: #051d71;
+  transform: translateX(8px);
+}
+
+.content_card_body {
+  padding: 0 40px 40px 40px;
+}
+
+.content_card_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #5a6c7d;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.content_card:hover .content_card_text {
+  color: #4a5568;
+}
+
+/* Keyframe Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInCard {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heading_work_speaks {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .heading_work_speaks_para {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn_lets_talk {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .stats_cards_container {
+    gap: 20px;
+  }
+
+  .stat_card {
+    padding: 30px 20px;
+    min-width: 250px;
+  }
+
+  .stats_title {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .stat_number {
+    font-size: 48px !important;
+  }
+
+  .stat_description {
+    font-size: 14px !important;
+  }
+
+  .content_cards_section {
+    gap: 30px;
+  }
+
+  .content_card_header {
+    padding: 30px 30px 15px 30px;
+  }
+
+  .content_card_body {
+    padding: 0 30px 30px 30px;
+  }
+
+  .content_card_title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .content_card_text {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading_work_speaks {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .stats_cards_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat_card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .stat_number {
+    font-size: 40px !important;
+  }
+
+  .content_card_header {
+    padding: 25px 25px 15px 25px;
+  }
+
+  .content_card_body {
+    padding: 0 25px 25px 25px;
+  }
+
+  .content_card_title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .content_card_text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

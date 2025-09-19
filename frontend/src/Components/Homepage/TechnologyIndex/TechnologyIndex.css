@@ -1,0 +1,169 @@
+.technologyindex_main_div {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  background: #f6f7f9;
+}
+.heading_technologyindex {
+  color: #f27c1e;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+.para_heading_tindex {
+  color: #0a0a0a;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 30px;
+}
+.icon_company {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-left: 10%;
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.icon_company:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+@media only screen and (max-width: 1400px) {
+  .technologyindex_main_div {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background: #f6f7f9;
+  }
+  .heading_technologyindex {
+    color: #f27c1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .para_heading_tindex {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.4px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  .icon_company {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .technologyindex_main_div {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background: #f6f7f9;
+  }
+  .heading_technologyindex {
+    color: #f27c1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .para_heading_tindex {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  .icon_company {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .technologyindex_main_div {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background: #f6f7f9;
+  }
+  .heading_technologyindex {
+    color: #f27c1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .para_heading_tindex {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36.4px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  .icon_company {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .technologyindex_main_div {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background: #f6f7f9;
+  }
+  .heading_technologyindex {
+    color: #f27c1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .para_heading_tindex {
+    color: #0a0a0a;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  .icon_company {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+  }
+}

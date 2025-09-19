@@ -1,0 +1,213 @@
+.main_div_BusinesssGoal {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+}
+.orange_heading_b {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+  color: #ff6809;
+}
+.orange_heading_c {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+  color: #0a0a0a;
+}
+.para_second_b {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #39393f;
+}
+.para_secondbb {
+  color: #39393f;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+@media only screen and (max-width: 1715px) {
+    .main_div_BusinesssGoal {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .orange_heading_b {
+        font-family: "Inter";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32.2px;
+        text-align: left;
+        color: #ff6809;
+      }
+      .orange_heading_c {
+        font-family: "Inter";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 32.2px;
+        text-align: left;
+        color: #0a0a0a;
+      }
+      .para_second_b {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+        color: #39393f;
+      }
+      .para_secondbb {
+        color: #39393f;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+      }
+}
+
+
+
+@media only screen and (max-width: 1545px) {
+    .main_div_BusinesssGoal {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+      }
+      .orange_heading_b {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.2px;
+        text-align: left;
+        color: #ff6809;
+      }
+      .orange_heading_c {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.2px;
+        text-align: left;
+        color: #0a0a0a;
+      }
+      .para_second_b {
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.8px;
+        text-align: left;
+        color: #39393f;
+      }
+      .para_secondbb {
+        color: #39393f;
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.8px;
+        text-align: left;
+      }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .main_div_BusinesssGoal {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+        padding: 3%;
+      }
+      .orange_heading_b {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22.2px;
+        text-align: left;
+        color: #ff6809;
+      }
+      .orange_heading_c {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22.2px;
+        text-align: left;
+        color: #0a0a0a;
+      }
+      .para_second_b {
+        font-family: "Inter";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.8px;
+        text-align: left;
+        color: #39393f;
+      }
+      .para_secondbb {
+        color: #39393f;
+        font-family: "Inter";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.8px;
+        text-align: left;
+      }
+}
+
+
+@media only screen and (max-width: 440px) {
+    .main_div_BusinesssGoal {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: white;
+        padding: 3%;
+      }
+      .orange_heading_b {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.2px;
+        text-align: left;
+        color: #ff6809;
+      }
+      .orange_heading_c {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.2px;
+        text-align: left;
+        color: #0a0a0a;
+      }
+      .para_second_b {
+        font-family: "Inter";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.8px;
+        text-align: left;
+        color: #39393f;
+      }
+      .para_secondbb {
+        color: #39393f;
+        font-family: "Inter";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.8px;
+        text-align: left;
+      }
+}

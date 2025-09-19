@@ -1,0 +1,147 @@
+.nav-line {
+  width: 100%; /* Make it responsive */
+  height: 49px;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+ 
+}
+
+.nav-layout1, .nav-layout2 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-layout1 {
+  width: 680px;
+  height:50px; /* Adjust width as needed */
+  padding: 12px 0;
+
+}
+
+.nav-layout2 {
+  width: 450px; /* Adjust width as needed */
+  padding: 7px 0;
+
+}
+.time_style_icon {
+  width: 12.04px;
+  height: 12px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 4%;
+}
+
+.para_time_style {
+  color: #050C18;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  text-align: left;
+  margin-top: 5px;
+  background-color: rgb(255, 0, 149);
+  width: auto; /* Adjust to content */
+  padding: 0 10px; /* Add padding for better spacing */
+  display: inline-block; /* Ensure it doesn't take full width */
+  position: relative;
+  margin-top:3%;
+}
+
+
+.location_style_icon {
+  width: 9.04px;
+  height: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 22px;
+}
+
+.para_location_style {
+  color: #050C18;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  text-align: left;
+  margin-top: 5px;
+  width: auto; /* Adjust to content */
+  padding: 0 10px; /* Add padding for better spacing */
+  display: inline-block; /* Ensure it doesn't take full width */
+  position: relative;
+  background-color: pink;
+  margin-top:3%;
+}
+
+.mail_style_icon {
+  width: 12.04px;
+  height: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 22px;
+}
+
+.para_mail_style {
+  color: #050C18;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  text-align: left;
+  width: auto; /* Adjust to content */
+  height: auto; /* Adjust to content */
+  padding: 0 10px; /* Add padding for better spacing */
+  margin-top: 10px; /* Adjust margin-top for alignment */
+  background-color: pink;
+  display: inline-block; /* Ensure it doesn't take full width */
+  position: relative;
+  margin-top:3%;
+}
+
+
+.phone_style_icon {
+  position: relative;
+  width: 50px;
+  height: 34px;
+  padding: 0px 9.88px 0px 10.08px;
+  border-radius: 17px 0px 0px 0px;
+}
+
+.para_phone_style {
+  color: #111111;
+  font-family: 'Poppins', sans-serif;
+  background-color: pink;
+  width: auto; /* Adjust to content */
+  height: auto; /* Adjust to content */
+  padding: 0 10px; /* Add padding for better spacing */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.16px;
+  text-align: left;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center;
+  margin-top: 5%; /* Center align vertically */
+}
+
+.call1-text {
+  font-family: 'Poppins', sans-serif;
+  background-color: skyblue;
+  position: relative;
+  width: auto; /* Adjust to content */
+  height: auto; /* Adjust to content */
+  margin-left: 10px; /* Add space between text and number */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.16px;
+  text-align: left;
+}
+
+
+

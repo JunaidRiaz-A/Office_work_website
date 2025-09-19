@@ -1,0 +1,555 @@
+.main_div_bringideas {
+  width: 100%;
+  height: 578px;
+  background-image: url("./../../../Assets/Background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.girl_image_style {
+  width: 100%;
+  height: 555px;
+  margin-top: 25px;
+  display: block;
+  object-fit: cover;
+}
+.btn_call_style {
+  background: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  color: #106eea;
+  font-size: 26px;
+  margin-top: 120px;
+  border-color: none;
+  border-style: none;
+  outline: none;
+}
+.call_us_style {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26.6px;
+  text-align: center;
+  margin-top: 20px;
+}
+.phone_style {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+.bring_to_life_style {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 34.2px;
+  text-align: center;
+}
+.talkabout_style {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 34.2px;
+  text-align: center;
+}
+.btn_esti_style {
+  width: 187.91px;
+  height: 54px;
+  border-radius: 5px;
+  background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: center;
+  border-color: none;
+  border-style: none;
+  outline: none;
+}
+@media only screen and (max-width: 1430px) {
+    .main_div_bringideas {
+        width: 100%;
+        height: 578px;
+        background-image: url("./../../../Assets/Background.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .girl_image_style {
+        width: 100%;
+        height: 555px;
+        margin-top: 25px;
+        display: block;
+        object-fit: cover;
+      }
+      .btn_call_style {
+        background: #ffffff;
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        color: #106eea;
+        font-size: 22px;
+        margin-top: 120px;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+      .call_us_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26.6px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+      }
+      .bring_to_life_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 34.2px;
+        text-align: center;
+      }
+      .talkabout_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 34.2px;
+        text-align: center;
+      }
+      .btn_esti_style {
+        width: 187.91px;
+        height: 54px;
+        border-radius: 5px;
+        background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: center;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .main_div_bringideas {
+        width: 100%;
+        height: 578px;
+        background-image: url("./../../../Assets/Background.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .girl_image_style {
+        width: 90%;
+        margin-left: 5%;
+        height: 355px;
+        margin-top: 95px;
+        display: block;
+        object-fit: cover;
+      }
+      .btn_call_style {
+        background: #ffffff;
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        color: #106eea;
+        font-size: 22px;
+        margin-top: 130px;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+      .call_us_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 26.6px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+      }
+      .bring_to_life_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 34.2px;
+        text-align: center;
+      }
+      .talkabout_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20.2px;
+        text-align: center;
+      }
+      .btn_esti_style {
+        width: 187.91px;
+        height: 54px;
+        border-radius: 5px;
+        background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: center;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .main_div_bringideas {
+        width: 100%;
+        height: 578px;
+        background-image: url("./../../../Assets/Background.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .girl_image_style {
+        width: 90%;
+        margin-left: 5%;
+        height: 410px;
+        margin-top: 95px;
+        display: block;
+        object-fit: cover;
+      }
+      .btn_call_style {
+        background: #ffffff;
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        color: #106eea;
+        font-size: 22px;
+        margin-top: 130px;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+      .call_us_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 26.6px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+      }
+      .bring_to_life_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 34.2px;
+        text-align: center;
+      }
+      .talkabout_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20.2px;
+        text-align: center;
+      }
+      .btn_esti_style {
+        width: 187.91px;
+        height: 54px;
+        border-radius: 5px;
+        background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: center;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .main_div_bringideas {
+        width: 100%;
+        height: 578px;
+        background-image: url("./../../../Assets/Background.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .girl_image_style {
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+        margin-top: 95px;
+        display: block;
+        object-fit: cover;
+      }
+      .btn_call_style {
+        background: #ffffff;
+        width: 50px;
+        height: 50px;
+        border-radius: 35px;
+        color: #106eea;
+        font-size: 16px;
+        margin-top: 130px;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+      .call_us_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.6px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+      }
+      .bring_to_life_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30.2px;
+        text-align: center;
+      }
+      .talkabout_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.2px;
+        text-align: center;
+      }
+      .btn_esti_style {
+        width: 187.91px;
+        height: 54px;
+        border-radius: 5px;
+        background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: center;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .main_div_bringideas {
+        width: 100%;
+        height: 578px;
+        background-image: url("./../../../Assets/Background.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .girl_image_style {
+        width: 28%;
+        margin-left: 36%;
+        height: 200px;
+        margin-top: 50px;
+        display: block;
+        object-fit: cover;
+      }
+      .btn_call_style {
+        background: #ffffff;
+        width: 40px;
+        height: 40px;
+        border-radius: 35px;
+        color: #106eea;
+        font-size: 12px;
+        margin-top: 10px;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+      .call_us_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12.6px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+      }
+      .bring_to_life_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20.2px;
+        text-align: center;
+      }
+      .talkabout_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 11.2px;
+        text-align: center;
+      }
+      .btn_esti_style {
+        width: 187.91px;
+        height: 40px;
+        border-radius: 5px;
+        background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: center;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .main_div_bringideas {
+        width: 100%;
+        height: 578px;
+        background-image: url("./../../../Assets/Background.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .girl_image_style {
+        width: 40%;
+        margin-left: 30%;
+        height: 230px;
+        margin-top: 50px;
+        display: block;
+        object-fit: cover;
+      }
+      .btn_call_style {
+        background: #ffffff;
+        width: 30px;
+        height: 30px;
+        border-radius: 35px;
+        color: #106eea;
+        font-size: 12px;
+        margin-top: 20px;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+      .call_us_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12.6px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+      }
+      .bring_to_life_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.2px;
+        text-align: center;
+      }
+      .talkabout_style {
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 11.2px;
+        text-align: center;
+      }
+      .btn_esti_style {
+        width: 187.91px;
+        height: 40px;
+        border-radius: 5px;
+        background: linear-gradient(262.5deg, #4e95ed 19%, #03228f 100%);
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: center;
+        border-color: none;
+        border-style: none;
+        outline: none;
+      }
+}

@@ -1,0 +1,321 @@
+.main_div_ProductDesignExperience {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.heading_productdesignexp {
+  color: #101010;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 53.64px;
+  text-align: center;
+}
+
+.hr_line_blue_productdesign {
+  width: 100px;
+  height: 10px;
+  background-color: #051d71;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.card_div_productdesign {
+  width: 100%;
+  height: 332.29px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16.86px 0px #626eda26;
+  padding: 20px;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card_div_productdesign:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ProductDesign_heading {
+  color: #101010;
+  font-family: "Poppins", sans-serif;
+  font-size: 28.74px;
+  font-weight: 600;
+  line-height: 32.36px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.ProductDesign_para {
+  color: #39393f;
+  font-family: "Poppins", sans-serif;
+  font-size: 16.16px;
+  font-weight: 400;
+  line-height: 19.82px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1700px) {
+  .main_div_ProductDesignExperience {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_productdesignexp {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43.64px;
+    text-align: center;
+  }
+  .hr_line_blue_productdesign {
+    width: 100px;
+    height: 10px;
+    background-color: #051d71;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .card_div_productdesign {
+    width: 100%;
+    height: 332.29px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16.86px 0px #626eda26;
+    padding: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  .ProductDesign_heading {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 24.74px;
+    font-weight: 600;
+    line-height: 28.36px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .ProductDesign_para {
+    color: #39393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.16px;
+    font-weight: 400;
+    line-height: 16.82px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .main_div_ProductDesignExperience {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_productdesignexp {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38.64px;
+    text-align: center;
+  }
+  .hr_line_blue_productdesign {
+    width: 100px;
+    height: 10px;
+    background-color: #051d71;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .card_div_productdesign {
+    width: 100%;
+    height: 332.29px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16.86px 0px #626eda26;
+    padding: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  .ProductDesign_heading {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 20.74px;
+    font-weight: 600;
+    line-height: 24.36px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .ProductDesign_para {
+    color: #39393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.16px;
+    font-weight: 400;
+    line-height: 14.82px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  .main_div_ProductDesignExperience {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_productdesignexp {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32.64px;
+    text-align: center;
+  }
+  .hr_line_blue_productdesign {
+    width: 100px;
+    height: 10px;
+    background-color: #051d71;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .card_div_productdesign {
+    width: 100%;
+    height: 332.29px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16.86px 0px #626eda26;
+    padding: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  .ProductDesign_heading {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 16.74px;
+    font-weight: 600;
+    line-height: 20.36px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .ProductDesign_para {
+    color: #39393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.82px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main_div_ProductDesignExperience {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_productdesignexp {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.64px;
+    text-align: center;
+  }
+  .hr_line_blue_productdesign {
+    width: 100px;
+    height: 10px;
+    background-color: #051d71;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .card_div_productdesign {
+    width: 100%;
+    height: 280.29px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16.86px 0px #626eda26;
+    padding: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  .ProductDesign_heading {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.74px;
+    font-weight: 600;
+    line-height: 18.36px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .ProductDesign_para {
+    color: #39393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .main_div_ProductDesignExperience {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_productdesignexp {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.64px;
+    text-align: center;
+  }
+  .hr_line_blue_productdesign {
+    width: 100px;
+    height: 10px;
+    background-color: #051d71;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .card_div_productdesign {
+    width: 100%;
+    height: 240.29px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 0px 16.86px 0px #626eda26;
+    padding: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  .ProductDesign_heading {
+    color: #101010;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.74px;
+    font-weight: 600;
+    line-height: 18.36px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .ProductDesign_para {
+    color: #39393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,67 @@
+.main_div_table_job_show {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: #fff;
+}
+
+.table-header {
+  margin-bottom: 20px;
+}
+
+.table-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fffefe;
+}
+
+.table-count {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.job-table th,
+.job-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.job-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #f7f5f5;
+}
+
+.action-column {
+  white-space: nowrap;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.read-btn {
+  color: #dc3545;
+}
+
+.read-btn:hover {
+  opacity: 0.8;
+}
+
+.read-btn.read {
+  color: #28a745;
+}

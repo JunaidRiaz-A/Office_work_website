@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.
+
+
+User-agent: *
+Disallow: /dashboard/
+Disallow: /login/
+Allow: /
+
+# Sitemap location
+Sitemap: https://360synergytech.com/sitemap.xml
+

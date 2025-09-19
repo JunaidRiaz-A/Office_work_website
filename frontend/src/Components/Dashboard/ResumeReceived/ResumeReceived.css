@@ -1,0 +1,163 @@
+.main_heading_blog {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.main_div_table_job_show {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.table-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #dce0e5;
+}
+
+.table-count {
+  font-size: 14px;
+  color: #d2dbdb;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.job-table th,
+.job-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.job-table th {
+  background-color: #34495e;
+  color: #fff;
+  font-weight: 600;
+}
+
+.job-table td {
+  vertical-align: middle;
+}
+
+.job-title,
+.job-description,
+.job-category {
+  color: #2c3e50;
+}
+
+.resume-link {
+  color: #3498db;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+.action-buttons,
+.action-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #34495e;
+  font-size: 18px;
+}
+
+.edit-btn {
+  color: #3498db;
+}
+
+.delete-btn {
+  color: #e74c3c;
+}
+
+.save-btn {
+  color: #2ecc71;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #34495e;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.page-link:hover,
+.page-link.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.page-link.disabled {
+  color: #7f8c8d;
+  pointer-events: none;
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.toast.success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.toast.error {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.toast-content {
+  margin: 0;
+}
